@@ -1,0 +1,13 @@
+﻿{
+  "Name": "C1 SB0203 - Autodesk ArtCAM Premium 2018",
+  "Type": "Screen",
+  "Id": "r8Z_frVw3EOM4Ym9zyOi2Q",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/r8Z_frVw3EOM4Ym9zyOi2Q",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/JWgCNBK9VEG1dFMpqSp7ig",
+  "Created": "2025-02-19T08:10:42.6319563Z",
+  "Updated": "2025-02-19T08:10:42.6319563Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

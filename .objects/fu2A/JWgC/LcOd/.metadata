@@ -1,0 +1,13 @@
+﻿{
+  "Name": "D200 long 64X3.3 - Autodesk ArtCAM Premium 20",
+  "Type": "Screen",
+  "Id": "LcOddeeWf0utzg8UuYkzSQ",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/LcOddeeWf0utzg8UuYkzSQ",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/JWgCNBK9VEG1dFMpqSp7ig",
+  "Created": "2025-03-04T08:04:16.6246386Z",
+  "Updated": "2025-03-04T08:04:16.6246386Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

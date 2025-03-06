@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Whole Relief",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "AoUl8xR9G0uSByvpEqGXyQ",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/AoUl8xR9G0uSByvpEqGXyQ",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/nZSxXHe730SqC0RlhY903Q",
+  "Created": "2025-02-27T09:08:44.2508903Z",
+  "Updated": "2025-02-27T09:08:44.2508903Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

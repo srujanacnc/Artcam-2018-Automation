@@ -1,0 +1,14 @@
+﻿{
+  "Name": "image Delete Material",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "pNwIJHzDUkO4EPpGd72G_Q",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/pNwIJHzDUkO4EPpGd72G_Q",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/r8Z_frVw3EOM4Ym9zyOi2Q",
+  "Created": "2025-02-19T08:15:52.7017646Z",
+  "Updated": "2025-02-19T08:15:52.7017646Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,304 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="toolpath_2d" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>Utilities cnc.Core</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="toolpath_2d" sap:VirtualizedContainerService.HintSize="1276,3045" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="activeWindow" />
+      <Variable x:TypeArguments="ui:Window" Name="act" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" ContinueOnError="True" DisplayName="ArtCAM" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,3022" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="Never" ScopeGuid="4ca24a82-aa64-40bf-aef9-70c173b987c7" UserDataFolderMode="Automatic" Version="V2" WebDriverMode="Disabled">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,2732" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Toolpaths'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4ca24a82-aa64-40bf-aef9-70c173b987c7" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="69f30a17-7e98-409e-8536-4fa62b605287" DesignTimeRectangle="1697, 332, 64, 22" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia automationid='59648' cls='SysTreeView32' /&gt;&lt;uia name='Toolpaths' role='tree item' /&gt;" FuzzySelectorArgument="&lt;uia automationid='59648' cls='SysTreeView32' /&gt;&lt;uia name='Toolpaths' role='tree item' automationid='' check:text='Toolpaths' /&gt;" Guid="268ce576-2fcf-44f4-88da-9c1da5b3ed55" InformativeScreenshot="4cae680adb35f54fe8e75b7f75b90772.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='C1 SB0203 - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'image Create Machine Re…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4ca24a82-aa64-40bf-aef9-70c173b987c7" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="t2EeZj9tTUmpkj9qvB0HqQ" DesignTimeRectangle="1655, 935, 32, 32" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;uia name='Create Machine Relief Toolpath' role='image' /&gt;" FuzzySelectorArgument="&lt;uia name='Create Machine Relief Toolpath' role='image' automationid='' /&gt;" Guid="cb86d49b-f0fd-4a8c-812b-5b966d5f0b4d" InformativeScreenshot="9ee914a17ac8784d59c2e0ebb6b92779.png" Reference="zxpQFLMOe0mqn2odXD-0jg/eqHF4tcTxkClPhdZZ5gtAQ" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='C1 SB0203 - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Whole Relief'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4ca24a82-aa64-40bf-aef9-70c173b987c7" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="77773a26-32d7-4809-ad87-1e66709d105d" ContentHash="h38xtMFafEWf87OzfIr0bg" DesignTimeRectangle="47, 71, 58, 13" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;uia role='table' /&gt;&lt;uia idx='2' role='item' tableRow='0' /&gt;&lt;uia role='table' /&gt;&lt;uia role='item' tableRow='0' /&gt;&lt;uia automationid='area_to_machineSelect' role='table' /&gt;&lt;uia automationid='area_to_machineSelectDisplay' name='wholeRelief' role='item' tableRow='0' /&gt;&lt;uia name='Whole Relief' role='text' /&gt;" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia automationid='area_to_machineSelect' role='table' /&gt;&lt;uia automationid='area_to_machineSelectDisplay' name='wholeRelief' role='item' /&gt;&lt;uia name='Whole Relief' role='text' automationid='' check:fulltext='Whole Relief' /&gt;" Guid="a973abee-706f-49bc-a47d-f294266e55e9" InformativeScreenshot="c355baf12277f68957746f91b8c453a9.png" Reference="BPn6SeZv5kaUlPUoI-KGnw/AoUl8xR9G0uSByvpEqGXyQ" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Selected Vectors'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4ca24a82-aa64-40bf-aef9-70c173b987c7" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="j0jF6cS21kGXI5WUFVLXYQ" DesignTimeRectangle="5, 68, 80, 13" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;uia automationid='popuptable' role='table' /&gt;&lt;uia name='Selected Vectors' role='item' /&gt;&lt;uia role='text' automationid='' /&gt;" Guid="180d98f6-cbee-4cb8-b6c7-174df1667ff4" InformativeScreenshot="1f10597b3cae3c4bde276f30c385b5a0.png" Reference="zxpQFLMOe0mqn2odXD-0jg/30BdkWBUnkOSPpUqPgWkfw" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Internet Explorer_Server' idx='*' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Finishing Options'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4ca24a82-aa64-40bf-aef9-70c173b987c7" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="gb47BDOG00ipRihfh-AjGg" DesignTimeRectangle="51, 200, 249, 15" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia automationid='gFinishToolFoldUptitlebar' role='table' /&gt;&lt;uia automationid='gFinishToolFoldUptitlespan' name='Click To Select...' role='item' check:fulltext='Click To Select...' /&gt;" Guid="1c9a40b3-19bd-4258-8aa2-91f6b5af5f36" InformativeScreenshot="2d000cd366966ad5e0193cf6b52382b6.png" Reference="zxpQFLMOe0mqn2odXD-0jg/eJpFe9uCRkKFi_vN88Y1_Q" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' idx='*' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="11, 165, 106, 20" ElementType="Text" FullSelectorArgument="&lt;uia name='Finishing Options' role='text' /&gt;" FuzzySelectorArgument="&lt;uia name='Finishing Options' role='text' automationid='' check:fulltext='Finishing Options' /&gt;" Guid="73ac91ca-a74d-473f-b6f8-81318de94c09" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Ball Nose 5 mm smooth'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4ca24a82-aa64-40bf-aef9-70c173b987c7" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="fV3iVXjcrEG3s6R5i4GylQ" DesignTimeRectangle="119, 224, 114, 16" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;wnd ctrlid='310' title='Dummy Text' /&gt;&lt;ctrl name='Tools and Groups' role='outline' /&gt;&lt;ctrl name='Ball Nose 5 mm smooth' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='310' title='Dummy Text' /&gt;&lt;ctrl name='Tools and Groups' role='outline' /&gt;&lt;ctrl name='Ball Nose 5 mm smooth' role='outline item' automationid='' check:text='Ball Nose 5 mm smooth' /&gt;" Guid="1d2b8368-0572-41a4-a832-492331df2246" InformativeScreenshot="6333dc77312969756b7b989d0a632d47.png" Reference="zxpQFLMOe0mqn2odXD-0jg/5Q3d2UGJYkeJnelfNASypQ" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='#32770' title='Tool Database' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Select'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4ca24a82-aa64-40bf-aef9-70c173b987c7" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="542, 390, 78, 23" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;uia automationid='1' cls='Button' name='Select' /&gt;" FuzzySelectorArgument="&lt;uia automationid='1' cls='Button' name='Select' role='button' check:fulltext='Select' /&gt;" Guid="72233dcd-8eed-4136-bf41-9bc4a12b7194" InformativeScreenshot="47de4035a37e42afd82cdfd4dc78fde6.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='#32770' title='Tool Database' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="625, 390, 78, 23" ElementType="Button" FullSelectorArgument="&lt;uia automationid='2' cls='Button' name='Cancel' /&gt;" FuzzySelectorArgument="&lt;uia automationid='2' cls='Button' name='Cancel' role='button' check:fulltext='Cancel' /&gt;" Guid="2ebdd3da-b7d8-4a58-8d0f-6ce35ba64772" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Click To Define Materia…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4ca24a82-aa64-40bf-aef9-70c173b987c7" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="51, 616, 288, 15" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia idx='19' role='table' /&gt;&lt;uia idx='2' role='item' tableRow='0' /&gt;&lt;uia automationid='gMaterialFoldUptitlebar' role='table' /&gt;&lt;uia automationid='gMaterialFoldUptitlespan' name='Click To Define Material...' role='item' tableRow='0' /&gt;" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia automationid='gMaterialFoldUptitlebar' role='table' /&gt;&lt;uia automationid='gMaterialFoldUptitlespan' name='Click To Define Material...' role='item' check:fulltext='Click To Define Material...' /&gt;" Guid="c0e8da12-1142-49c4-b1bd-a5ed51b9697b" InformativeScreenshot="bcafc833fb930af1c675c9033baf314c.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,247" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" ScopeIdentifier="4ca24a82-aa64-40bf-aef9-70c173b987c7" Shortcuts="[d(hk)][k(Num2)][u(hk)][d(hk)][k(num0)][u(hk)]" Version="V4">
+              <uix:NKeyboardShortcuts.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NKeyboardShortcuts.VerifyOptions>
+            </uix:NKeyboardShortcuts>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,247" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" ScopeIdentifier="4ca24a82-aa64-40bf-aef9-70c173b987c7" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V4">
+              <uix:NKeyboardShortcuts.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NKeyboardShortcuts.VerifyOptions>
+            </uix:NKeyboardShortcuts>
+            <uix:NSetText DisplayName="Set Text 'Name'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NSetText_1" ScopeIdentifier="4ca24a82-aa64-40bf-aef9-70c173b987c7" Text="3d" Version="V4">
+              <uix:NSetText.Target>
+                <uix:TargetAnchorable ContentHash="ipgRBV2jmUO_UZFITar0gQ" DesignTimeRectangle="82, 820, 140, 21" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia automationid='ToolpathNameEdit' role='edit' /&gt;" Guid="fcd060bb-e24e-4227-9231-30cbb16888a5" InformativeScreenshot="7e0ee1a4c85bf61b672bba69a4a4b781.png" IsResponsive="True" Reference="BPn6SeZv5kaUlPUoI-KGnw/pTc-w4pHX0m6ZLE5fjVY6g" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' idx='*' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="49, 824, 31, 13" ElementType="Text" FullSelectorArgument="&lt;uia idx='21' role='table' /&gt;&lt;uia idx='2' role='item' tableRow='0' /&gt;&lt;uia role='table' /&gt;&lt;uia automationid='ToolpathNameEditLabel' name='Name:' role='item' tableRow='0' /&gt;&lt;uia name='Name:' role='text' /&gt;" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia role='table' /&gt;&lt;uia automationid='ToolpathNameEditLabel' name='Name:' role='item' /&gt;&lt;uia name='Name:' role='text' automationid='' check:fulltext='Name:' /&gt;" Guid="ba1764aa-a416-4a78-a2f7-7e66a36c4f9d" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NSetText.Target>
+            </uix:NSetText>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Calculate Now'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4ca24a82-aa64-40bf-aef9-70c173b987c7" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="190, 626, 88, 23" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia automationid='CalculateButton' name='Calculate Now' role='button' check:fulltext='Calculate Now' /&gt;" Guid="8611eff3-02cd-4bf6-9875-ef3760a4d43c" InformativeScreenshot="e1672dab5e1a3e00afc19bd17a23314f.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' idx='*' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="84, 626, 92, 23" ElementType="Button" FullSelectorArgument="&lt;uia idx='22' role='table' /&gt;&lt;uia idx='2' role='item' tableRow='0' /&gt;&lt;uia idx='2' role='table' /&gt;&lt;uia role='item' tableRow='0' /&gt;&lt;uia automationid='ApplyButton' name='Calculate Later' role='button' /&gt;" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia automationid='ApplyButton' name='Calculate Later' role='button' check:fulltext='Calculate Later' /&gt;" Guid="6a5b1ed1-18b4-4d86-9172-e7eed2e2465d" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1048" FilePath="C:\\Program Files\\Autodesk\\ArtCAM 2018\\Exec\\artcampro.exe" IconBase64="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" sap2010:WorkflowViewState.IdRef="TargetApp_1" InformativeScreenshot="c62b4d48420e1a5b70b3030f03a7b58c.png" Selector="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' omit:title='*Autodesk ArtCAM Premium 2018' /&gt;" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

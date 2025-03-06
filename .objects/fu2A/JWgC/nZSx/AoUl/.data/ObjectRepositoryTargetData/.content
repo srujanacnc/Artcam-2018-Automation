@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="h38xtMFafEWf87OzfIr0bg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="77773a26-32d7-4809-ad87-1e66709d105d" DesignTimeRectangle="47, 71, 58, 13" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;uia role='table' /&gt;&lt;uia idx='2' role='item' tableRow='0' /&gt;&lt;uia role='table' /&gt;&lt;uia role='item' tableRow='0' /&gt;&lt;uia automationid='area_to_machineSelect' role='table' /&gt;&lt;uia automationid='area_to_machineSelectDisplay' name='wholeRelief' role='item' tableRow='0' /&gt;&lt;uia name='Whole Relief' role='text' /&gt;" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia automationid='area_to_machineSelect' role='table' /&gt;&lt;uia automationid='area_to_machineSelectDisplay' name='wholeRelief' role='item' /&gt;&lt;uia name='Whole Relief' role='text' automationid='' check:fulltext='Whole Relief' /&gt;" Guid="a973abee-706f-49bc-a47d-f294266e55e9" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c355baf12277f68957746f91b8c453a9.png" xmlns="">0Y2ToNj9zUkq0rQb_LNps5w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

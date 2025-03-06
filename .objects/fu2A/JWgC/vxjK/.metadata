@@ -1,0 +1,13 @@
+﻿{
+  "Name": "3D View",
+  "Type": "Screen",
+  "Id": "vxjKu3nzzEyStUDKSY6HAQ",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/vxjKu3nzzEyStUDKSY6HAQ",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/JWgCNBK9VEG1dFMpqSp7ig",
+  "Created": "2025-03-04T08:01:50.4465246Z",
+  "Updated": "2025-03-04T08:01:50.4465246Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
