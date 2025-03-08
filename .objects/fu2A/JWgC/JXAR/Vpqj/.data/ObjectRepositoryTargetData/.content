@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xXDpYd9lDkKCzffj5U5dVg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1773, 310, 56, 19" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia automationid='Height' role='edit' /&gt;" Guid="05fee060-8110-4781-8956-c506801fa12c" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='(Untitled) - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1741, 313, 30, 13" ElementType="Text" FullSelectorArgument="&lt;uia idx='2' role='table' /&gt;&lt;uia idx='2' role='item' tableRow='0' /&gt;&lt;uia role='table' /&gt;&lt;uia automationid='HeightLabel' name='Height' role='item' tableRow='1' /&gt;&lt;uia name='Height' role='text' /&gt;" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia role='table' /&gt;&lt;uia automationid='HeightLabel' name='Height' role='item' /&gt;&lt;uia name='Height' role='text' automationid='' check:fulltext='Height' /&gt;" Guid="e537d441-cee4-4771-94dd-4211a51cf166" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4a35a3fa5ec4b5fd5ec8ae169482bacb.png" xmlns="">0-9cYw3HSjEqpE_yV007yqQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

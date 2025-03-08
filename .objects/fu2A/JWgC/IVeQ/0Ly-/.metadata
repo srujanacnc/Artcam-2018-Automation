@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Distance(1)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "0Ly-rkQ_hkCFRzy6OVGI8A",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/0Ly-rkQ_hkCFRzy6OVGI8A",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/IVeQUmDObkCPedOahu3nwQ",
+  "Created": "2025-03-08T10:49:19.7472591Z",
+  "Updated": "2025-03-08T10:49:19.7472591Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Vectors",
+  "Type": "Element",
+  "Id": "mWKyY0MwkEOe_9lT8XwX_Q",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/mWKyY0MwkEOe_9lT8XwX_Q",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/R4d_sjet30i4zjl-BmaQ_Q",
+  "Created": "2025-03-08T09:41:04.4855338Z",
+  "Updated": "2025-03-08T09:41:04.4855338Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

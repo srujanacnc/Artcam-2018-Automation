@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bVk0dt9WT0S78uBYDOb6ew" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1869, 592, 47, 18" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;uia idx='9' role='table' /&gt;&lt;uia idx='2' role='item' tableRow='0' /&gt;&lt;uia automationid='CancelButton' name='Cancel' role='button' /&gt;" Guid="e2cb9902-50c8-4fea-98bc-a31da69a7115" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='(Untitled) - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="Selector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="56d43922c66553ebc207a7304ac215c6.png" xmlns="">0t1-fat0MxUe4rQyNBPPUjg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

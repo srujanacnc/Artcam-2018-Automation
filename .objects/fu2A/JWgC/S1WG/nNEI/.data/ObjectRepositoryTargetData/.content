@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wY90bLdDEUKwYILKv0-1Pg" Reference="BPn6SeZv5kaUlPUoI-KGnw/nNEIBh3dtkuE-TeovZAGEQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="384, 371, 57, 23" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia automationid='ApplyButton' name='OK' role='button' check:fulltext='OK' /&gt;" Guid="8400f716-7295-4cdc-9c04-c17bfc94385e" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='#32770' title='New Model' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="455, 371, 57, 23" ElementType="Button" FullSelectorArgument="&lt;uia idx='4' role='table' /&gt;&lt;uia idx='2' role='item' tableRow='0' /&gt;&lt;uia automationid='CancelButton' name='Cancel' role='button' /&gt;" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia automationid='CancelButton' name='Cancel' role='button' check:fulltext='Cancel' /&gt;" Guid="c41cc259-1682-4fe9-9999-09b585a41783" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2658a805b70062fc84db780ee3425029.png" xmlns="">0BFkUOfBKqkWDowPc2UUKHQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

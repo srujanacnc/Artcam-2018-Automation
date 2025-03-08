@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2vcYzn1LTUSBl9hCMXjU-Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1659, 226, 155, 21" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;uia name='Square or Rectangle' role='text' /&gt;" FuzzySelectorArgument="&lt;uia name='Square or Rectangle' role='text' automationid='' check:fulltext='Square or Rectangle' /&gt;" Guid="cd547c83-0ba3-45d5-9a97-b1e9238f93d7" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='(Untitled) - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5e1567a30a44c6eddfe79d9428886f83.png" xmlns="">006RyyISI40SiTwv6K-7P2w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

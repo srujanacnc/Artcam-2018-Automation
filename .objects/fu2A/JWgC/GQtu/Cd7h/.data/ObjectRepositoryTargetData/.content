@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FR8c1Ljtv0WtKzP-m1yMIg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="cbfcb9ab-f9c1-4cbd-9b53-6013007006d2" DesignTimeRectangle="389, 101, 195, 75" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;uia automationid='new-model' name='document.write(_lc(&amp;quot;New Model&amp;quot;))New Model' role='button' /&gt;" FuzzySelectorArgument="&lt;uia automationid='new-model' name='document.write(_lc(&amp;quot;New Model&amp;quot;))New Model' role='button' check:fulltext='New Model' /&gt;" Guid="ce36e07a-8fc3-4d43-a4d9-bf95a0a242da" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c20d0fbeaf22653d518f54bccbae58db.png" xmlns="">0eS4Xhy80uUSvM_DkyDGz_A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

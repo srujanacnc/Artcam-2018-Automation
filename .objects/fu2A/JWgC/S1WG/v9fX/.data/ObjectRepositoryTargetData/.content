@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yGyfY5VwhkuYrxYKYEL6PA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="17e95f26-aecb-47ee-b9e9-1682963cf792" DesignTimeRectangle="9, 3, 516, 35" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;uia automationid='TitleBar' role='title bar' /&gt;" FuzzyAccuracy="0.82" FuzzySelectorArgument="&lt;uia automationid='TitleBar' role='title bar' check:text='New Model' /&gt;" Guid="2563ecad-3026-4c4c-91fd-496649295cb6" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='#32770' title='New Model' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="72e16755edbe8fc0c34b31e9fc2a7d4f.png" xmlns="">0lIYiY5yRWEOqbfHAsr1-uw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

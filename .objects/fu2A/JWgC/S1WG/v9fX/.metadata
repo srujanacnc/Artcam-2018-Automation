@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Element 'New Model'",
+  "Type": "Element",
+  "Id": "v9fXsL4AfEStZta8k1tmJw",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/v9fXsL4AfEStZta8k1tmJw",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/S1WGxkD6e0iImmmELuJV3A",
+  "Created": "2025-03-08T09:36:00.524456Z",
+  "Updated": "2025-03-08T09:36:00.524456Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

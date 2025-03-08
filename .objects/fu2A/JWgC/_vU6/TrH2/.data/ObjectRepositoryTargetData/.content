@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yA8c36y_1EONl8RU-IZCDw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="49, 209, 1651, 766" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia automationid='59648' cls='AfxFrameOrView120u' /&gt;" FuzzySelectorArgument="&lt;uia automationid='59648' cls='AfxFrameOrView120u' role='pane' /&gt;" Guid="c6a45f26-a29d-4179-a2e4-b14b21c1fa5e" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='(Untitled) - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="93fff9380e3a54b3c4cac7f087710dcf.png" xmlns="">0jX7epLixs0mGw0Hf7o6xPw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

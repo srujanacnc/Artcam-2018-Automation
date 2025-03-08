@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YBlApfNT5kC75qFeUbHbQA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="96, 324, 194, 21" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia automationid='' name='inches' role='text' check:fulltext='inches' /&gt;" Guid="aad58d0e-0174-4a82-9be4-ac71314c3a62" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='#32770' title='New Model' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="34, 303, 40, 40" ElementType="Icon" FullSelectorArgument="&lt;uia idx='3' role='table' /&gt;&lt;uia role='item' tableRow='0' /&gt;&lt;uia role='image' /&gt;" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia role='image' automationid='' /&gt;" Guid="d10d19bc-649d-4bab-a339-2de9a9cd227a" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4e95392d890f3eccd6305bd92c895a6c.png" xmlns="">0jewc4VTRZEOilxqbtYhQ0w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

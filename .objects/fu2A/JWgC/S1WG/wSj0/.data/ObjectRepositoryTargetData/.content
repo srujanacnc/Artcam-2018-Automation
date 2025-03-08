@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="O2Jc-SQFaEm99vVz9UdJqg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="95, 120, 70, 24" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia automationid='ModelHeight' role='edit' /&gt;" Guid="057e99f8-5e4c-429c-b559-e3aaa9b892bb" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='#32770' title='New Model' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="32, 124, 61, 16" ElementType="Text" FullSelectorArgument="&lt;uia role='table' /&gt;&lt;uia automationid='ModelHeightLabel' name='Height (Y)' role='item' tableRow='1' /&gt;&lt;uia name='Height (Y)' role='text' /&gt;" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia automationid='ModelHeightLabel' name='Height (Y)' role='item' /&gt;&lt;uia name='Height (Y)' role='text' automationid='' check:fulltext='Height (Y)' /&gt;" Guid="36ebadff-976a-4e18-a386-80048770660d" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8b3c5268b450198d27c5ad4f22fbd9da.png" xmlns="">0wMq9srLEmE-JeoZrWwIFjw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

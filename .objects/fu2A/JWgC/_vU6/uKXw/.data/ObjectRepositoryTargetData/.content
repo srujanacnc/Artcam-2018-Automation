@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XlT-jEsBokeAb_jfEp6EMw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1773, 289, 56, 19" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia automationid='Width' role='edit' /&gt;" Guid="5677d7f7-323c-4548-8a89-996ba7b251c6" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='(Untitled) - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1741, 293, 27, 13" ElementType="Text" FullSelectorArgument="&lt;uia idx='2' role='table' /&gt;&lt;uia idx='2' role='item' tableRow='0' /&gt;&lt;uia role='table' /&gt;&lt;uia automationid='WidthLabel' name='Width' role='item' tableRow='0' /&gt;&lt;uia name='Width' role='text' /&gt;" FuzzyAccuracy="0.87" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia role='table' /&gt;&lt;uia automationid='WidthLabel' name='Width' role='item' /&gt;&lt;uia name='Width' role='text' automationid='' check:fulltext='Width' /&gt;" Guid="5e60279e-e8b4-4889-85fc-7e0b4f3f6401" ImageBase64="" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f9d59bc8244c649eeb5d9f29bf26a44f.png" xmlns="">0QHaUfR0cmkeUvxLaSxVjMg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="appVGgx3eEaMdz2iTcK6Ew" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1872, 235, 32, 25" DesignTimeScaleFactor="1.25" Guid="1be76056-ebb8-4ff3-ab03-ecc4bc540677" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAYAAABQDyyRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAKsSURBVEhLnZVLztpAEIRzJ9vYgSPAGk6A/pwCgXjdBYkrwCVAiMeCE7BjPck3o8Lt8fiPkkWp3a/qmvaAf2RZ5oSiKFye5x8f4AvKC71er+HH+ZiHvHzVNgSoSM3Wx5Zl+Wco6HlUVfV5Jk7e1qd44lkNATYBKVbADwLCqUN9PcDmbZ9ghwvEWgIAJFX1M0EWfOKTycR9ff3ytq5ri4aH59Qc0LkBTsOKeSamODXk9vu9ez6f3uITj2vpJ4cwYnYOIJa8AwD1OpmaiyKQEz8cDu79fnuLH3rrVyIOuxXx2JqWAKDhalCzbLeAuk58lgvEs5IboEFktlgx1moF4Ns8+I5PuSxLbIBiCK1qAEFZhjvBu7UCdFeUt30xn52V52VbgIrVAKFIw+8+XM5YAPXYuEdc2lJTQJXeAM2yggZANBgM3PF49AKw+MQlJO6TjQVkWWIDFPI8Go3carVy6/X6g81m4+12u3Xn89kLwOLbvEA/PPAlBcSvAKWchOfpdOqu16t7PB5JvF4vLwCbygP64YEPXvjtrLz4i4DL5eJut1sSVkAqD+j/TgD3qSHAvoLhcOhms5mbz+cNLBYLt1wu3el08gKw+MTjWvrhgS/1CoglBQR13Zew3+83LiE+8X+9hMRaAiAioQYR2RyD2j/D8DmOe8SlXDwruQF98/EFCP/3j8jyxbNaAiDgA2IbsMphUW4F2JOr1g7RB0lxO6slQE2hMTTFlpwVILGpenHhg3hWxwbqRpGR1zPxLgGWx3JYHlvTEABUzFqBfOVoJL7b7dz9fvfWvgLLoYsp385RXUuAErpYTYTTcKrxeOz/ZLD1KevTCuJJzQEtAToJELEsp+FZq8zzeuXE7WltH1CPBbHkHaiLw0VRPAgIIkD4/Ydnu271iEf98utY4X4DlT/FMFpYObEAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='(Untitled) - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1708, 235, 53, 26" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' /&gt;" FuzzyAccuracy="0.91" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' automationid='' check:text='Vectors' /&gt;" Guid="7f3a2e6f-46cf-4ba2-b4f0-d07a83a88de1" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b6d49647e26343e625160c491032c4b8.png" xmlns="">0d5UoX7lRMUCgXbXNZT5Zvw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

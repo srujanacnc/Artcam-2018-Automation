@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5QwaGS1EE0CagSlmEioWzQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="64, 48, 56, 19" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia automationid='FixedNudgeDistanceEdit' role='edit' /&gt;" Guid="ccb662f2-b379-4977-923e-7b99b972e7e2" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='#32770' title='Nudge Distance' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="24, 52, 38, 13" ElementType="Text" FullSelectorArgument="&lt;uia role='table' /&gt;&lt;uia automationid='FixedNudgeDistanceEditLabel' name='Distance' role='item' tableRow='0' /&gt;&lt;uia name='Distance' role='text' /&gt;" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia automationid='FixedNudgeDistanceEditLabel' name='Distance' role='item' /&gt;&lt;uia name='Distance' role='text' automationid='' check:fulltext='Distance' /&gt;" Guid="20d3e843-8215-46ab-82ba-444ed563256f" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5fd44e18769dae3f240f2de4e43d6dc4.png" xmlns="">0y_f384KcWkWzEaIZgP8RWA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

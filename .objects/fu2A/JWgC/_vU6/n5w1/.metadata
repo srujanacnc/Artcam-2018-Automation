@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Label 'Square or Rectangle'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "n5w1DQ30XkaGChgOw_yGJw",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/n5w1DQ30XkaGChgOw_yGJw",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/_vU6LYYKJ0aB_x528NttSw",
+  "Created": "2025-03-08T09:50:05.2686583Z",
+  "Updated": "2025-03-08T09:50:05.2686583Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

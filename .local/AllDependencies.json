@@ -19585,16 +19585,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sujana CNC\\.nuget\\packages\\": {}
+    "C:\\Users\\JohnX\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Artcam 2018 Automation",
       "projectName": "Artcam 2018 Automation",
-      "projectPath": "C:\\Users\\Sujana CNC\\Documents\\UiPath\\Artcam 2018 Automation\\.local",
-      "packagesPath": "C:\\Users\\Sujana CNC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sujana CNC\\Documents\\UiPath\\Artcam 2018 Automation\\.local",
-      "UsingMicrosoftNETSdk": false
+      "projectPath": "C:\\Users\\JohnX\\Downloads\\UiPath\\CNC Automation\\.local",
+      "packagesPath": "C:\\Users\\JohnX\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JohnX\\Downloads\\UiPath\\CNC Automation\\.local",
+      "UsingMicrosoftNETSdk": false,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ]
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -19615,7 +19619,7 @@
             "version": "[2.1.0, 2.1.0]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Sujana CNC\\AppData\\Local\\Programs\\UiPath\\Studio\\PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\JohnX\\AppData\\Local\\Programs\\UiPath\\Studio\\PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
