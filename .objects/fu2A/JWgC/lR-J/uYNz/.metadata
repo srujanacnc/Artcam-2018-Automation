@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Use fixed nudge distance",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "uYNzbfVPGEOVbICbCSCy-g",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/uYNzbfVPGEOVbICbCSCy-g",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/lR-JbnvZ8ECo6fyO73XgLg",
+  "Created": "2025-03-08T09:21:14.0824395Z",
+  "Updated": "2025-03-08T09:21:14.0824395Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

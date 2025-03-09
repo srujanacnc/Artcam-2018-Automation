@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Gp31TvZOo02H2Fa92x67vQ" Reference="BPn6SeZv5kaUlPUoI-KGnw/SjN5t43-iEiEfnxp6jJ7Tw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="414, 65, 40, 40" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;uia idx='57' role='button' /&gt;" Guid="20d2c73a-f73c-4c17-82c3-128a12de66a6" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='(Untitled) - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="Selector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="34960794cf1b0cf3d999c26d7a6ae8a0.png" xmlns="">0a3DIclSmZEyDfI19wDUqzQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

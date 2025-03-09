@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="b4eUNj9-kkiysYJdxoWrTA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="46, 31, 142, 21" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;uia automationid='' name='Use fixed nudge distance' role='text' check:fulltext='Use fixed nudge distance' /&gt;" Guid="874cac45-02a4-4955-8431-ac6518c59646" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='#32770' title='Nudge Distance' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="893c0496c4fdb765cc2efeb85cdb458e.png" xmlns="">0prxXZr6GH0G3zbpEoxKPpQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

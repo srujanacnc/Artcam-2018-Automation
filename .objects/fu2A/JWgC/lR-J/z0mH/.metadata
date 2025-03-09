@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Use fixed nudge distance(1)",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "z0mH6XFGoke-qw5ZTDvZ8Q",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/z0mH6XFGoke-qw5ZTDvZ8Q",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/lR-JbnvZ8ECo6fyO73XgLg",
+  "Created": "2025-03-08T09:26:31.4146923Z",
+  "Updated": "2025-03-08T09:26:31.4146923Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,178 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Create_Vector_Layers" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.VMware.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Create_Vector_Layers" sap:VirtualizedContainerService.HintSize="1276,1814" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="(Untitled) - Autodesk ArtCAM Premium 2018(2)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,1791" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="777e9407-7bf4-4d81-afdd-d380f117877f" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1501" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DisplayName="Click 'Vectors'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="777e9407-7bf4-4d81-afdd-d380f117877f" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="230, 42, 27, 22" DesignTimeScaleFactor="1" Guid="2d76d7d9-6a8a-4749-b297-3eef040187a3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABsAAAAWCAYAAAAxSueLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGOSURBVEhLvZTBsYMwDER/T4ChAyZABxzyC6YIGEqgAGeenSXC40BOHHYsS1qtJXv8N46jvwv3ihVF4VNUVeXLstz32AC/Yt9sYHn4tc+KKckWAs7Vbzjjc7vf5toaqpsVAyTV9bG4VvyPRxeAbWMSx2+FwFcxFa3rJtgQhbZt/TRNAdg2FnnNLm5rno5RBCtGvOs6P89zALY44lmuOOBEjHG4d/Jx/n3f72LYHw6dRNEoJv6FWLyvmCzotMMw7GLY6iTNTe8tKwbZilk/+7QzfLGrmGfFrP/0zpqmCQ+Ae6EoXWA/n/9+XdcAbHzEyMGGA/enMWpcEHlxy7LsnQBEtm0LwLYxcuHApQa1VPdEzN0jFsfo7hkjJ7r1gZAsMYE9ZLqQGDa+XK58qnsyxmMB9iKmnVmO8nUwccClGCvQz0Cce5EYtjj6aSz3UgyIkH7ExHgAvDiAjU9xcnP3Db6KkSiSTqkVPx0BPQKbA/D/JKYTsgqfQvEA7HO+lMOqulmxNClXgNXaNsfyiMV94V8FhUpA0psYXgAAAABJRU5ErkJggg==" InformativeScreenshot="ff6cd8c5327285a99a0961cec0070a5e.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="50, 44, 43, 20" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' automationid='' check:text='Vectors' /&gt;" Guid="5255dc46-1acf-4fc2-9b00-887e75701f91" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,257" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="777e9407-7bf4-4d81-afdd-d380f117877f" Text="messure[k(Enter)]" Version="V4" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DisplayName="Click 'Vectors'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="777e9407-7bf4-4d81-afdd-d380f117877f" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="230, 42, 27, 22" DesignTimeScaleFactor="1" Guid="2d76d7d9-6a8a-4749-b297-3eef040187a3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABsAAAAWCAYAAAAxSueLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGOSURBVEhLvZTBsYMwDER/T4ChAyZABxzyC6YIGEqgAGeenSXC40BOHHYsS1qtJXv8N46jvwv3ihVF4VNUVeXLstz32AC/Yt9sYHn4tc+KKckWAs7Vbzjjc7vf5toaqpsVAyTV9bG4VvyPRxeAbWMSx2+FwFcxFa3rJtgQhbZt/TRNAdg2FnnNLm5rno5RBCtGvOs6P89zALY44lmuOOBEjHG4d/Jx/n3f72LYHw6dRNEoJv6FWLyvmCzotMMw7GLY6iTNTe8tKwbZilk/+7QzfLGrmGfFrP/0zpqmCQ+Ae6EoXWA/n/9+XdcAbHzEyMGGA/enMWpcEHlxy7LsnQBEtm0LwLYxcuHApQa1VPdEzN0jFsfo7hkjJ7r1gZAsMYE9ZLqQGDa+XK58qnsyxmMB9iKmnVmO8nUwccClGCvQz0Cce5EYtjj6aSz3UgyIkH7ExHgAvDiAjU9xcnP3Db6KkSiSTqkVPx0BPQKbA/D/JKYTsgqfQvEA7HO+lMOqulmxNClXgNXaNsfyiMV94V8FhUpA0psYXgAAAABJRU5ErkJggg==" InformativeScreenshot="ff6cd8c5327285a99a0961cec0070a5e.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="50, 44, 43, 20" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' automationid='' check:text='Vectors' /&gt;" Guid="5255dc46-1acf-4fc2-9b00-887e75701f91" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,257" sap2010:WorkflowViewState.IdRef="NTypeInto_2" Text="toolpath[k(Enter)]" Version="V4" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DisplayName="Click 'Vectors'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="777e9407-7bf4-4d81-afdd-d380f117877f" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="230, 42, 27, 22" DesignTimeScaleFactor="1" Guid="2d76d7d9-6a8a-4749-b297-3eef040187a3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABsAAAAWCAYAAAAxSueLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGOSURBVEhLvZTBsYMwDER/T4ChAyZABxzyC6YIGEqgAGeenSXC40BOHHYsS1qtJXv8N46jvwv3ihVF4VNUVeXLstz32AC/Yt9sYHn4tc+KKckWAs7Vbzjjc7vf5toaqpsVAyTV9bG4VvyPRxeAbWMSx2+FwFcxFa3rJtgQhbZt/TRNAdg2FnnNLm5rno5RBCtGvOs6P89zALY44lmuOOBEjHG4d/Jx/n3f72LYHw6dRNEoJv6FWLyvmCzotMMw7GLY6iTNTe8tKwbZilk/+7QzfLGrmGfFrP/0zpqmCQ+Ae6EoXWA/n/9+XdcAbHzEyMGGA/enMWpcEHlxy7LsnQBEtm0LwLYxcuHApQa1VPdEzN0jFsfo7hkjJ7r1gZAsMYE9ZLqQGDa+XK58qnsyxmMB9iKmnVmO8nUwccClGCvQz0Cce5EYtjj6aSz3UgyIkH7ExHgAvDiAjU9xcnP3Db6KkSiSTqkVPx0BPQKbA/D/JKYTsgqfQvEA7HO+lMOqulmxNClXgNXaNsfyiMV94V8FhUpA0psYXgAAAABJRU5ErkJggg==" InformativeScreenshot="ff6cd8c5327285a99a0961cec0070a5e.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="50, 44, 43, 20" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' automationid='' check:text='Vectors' /&gt;" Guid="5255dc46-1acf-4fc2-9b00-887e75701f91" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_3" Text="cutting[k(Enter)]" Version="V4" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1048" ContentHash="Zu1-K3_v8kq08IBrfTNQfQ" FilePath="C:\\Program Files\\Autodesk\\ArtCAM 2018\\Exec\\artcampro.exe" IconBase64="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" InformativeScreenshot="1935ea6addf68f66a6e7659abb71d174.png" Selector="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' omit:title='(Untitled) - Autodesk ArtCAM Premium 2018' /&gt;" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

@@ -236,7 +236,7 @@
       <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="toolpath_2d" sap:VirtualizedContainerService.HintSize="1276,542" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="toolpath_2d" sap:VirtualizedContainerService.HintSize="1276,4077" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:Window" Name="activeWindow" />
     </Sequence.Variables>
@@ -252,22 +252,22 @@
         </InArgument>
       </ui:MessageBox.Text>
     </ui:MessageBox>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="D200 long 64X3.3 - Autodesk ArtCAM Premium 20" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="518,402" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" OpenMode="Never" ScopeGuid="7ac14091-d093-4e9b-93bc-1987bbf36065" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="D200 long 64X3.3 - Autodesk ArtCAM Premium 20" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="518,3937" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" OpenMode="Never" ScopeGuid="7ac14091-d093-4e9b-93bc-1987bbf36065" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,112" sap2010:WorkflowViewState.IdRef="Sequence_8">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,3647" sap2010:WorkflowViewState.IdRef="Sequence_8">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Sequence sap:VirtualizedContainerService.HintSize="450,50" sap2010:WorkflowViewState.IdRef="Sequence_7">
+            <Sequence sap:VirtualizedContainerService.HintSize="450,3585" sap2010:WorkflowViewState.IdRef="Sequence_7">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
@@ -288,9 +288,9 @@
               </uix:NClick>
               <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Origin'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7ac14091-d093-4e9b-93bc-1987bbf36065" Version="V4">
                 <uix:NClick.Target>
-                  <uix:TargetAnchorable ContentHash="tDRQneYF_U-t_UzNQ_sKkQ" DesignTimeRectangle="71, 208, 12, 13" DesignTimeScaleFactor="1" ElementType="RadioButton" FullSelectorArgument="&lt;wnd ctrlid='10099' /&gt;&lt;ctrl role='radio button' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='10099' /&gt;&lt;ctrl role='radio button' automationid='' /&gt;" Guid="45fdf64a-b128-468e-9194-5301ce2d32c8" InformativeScreenshot="129a995d57eb830be9a49601b4d83658.png" Reference="zxpQFLMOe0mqn2odXD-0jg/E-hcWRcyOUKfqyRxZ7HQUw" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='#32770' title='Set Model Size' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable ContentHash="tDRQneYF_U-t_UzNQ_sKkQ" DesignTimeRectangle="71, 208, 12, 13" DesignTimeScaleFactor="1" ElementType="RadioButton" FullSelectorArgument="&lt;wnd ctrlid='10099' /&gt;&lt;ctrl role='radio button' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='10099' /&gt;&lt;ctrl role='radio button' automationid='' /&gt;" Guid="45fdf64a-b128-468e-9194-5301ce2d32c8" InformativeScreenshot="6632f6e9290293aed893cf2ae6d73294.png" Reference="zxpQFLMOe0mqn2odXD-0jg/E-hcWRcyOUKfqyRxZ7HQUw" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='#32770' title='Set Model Size' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
                         <uix:Target DesignTimeRectangle="52, 145, 57, 20" ElementType="Text" FullSelectorArgument="&lt;uia automationid='10126' cls='Static' name='Origin' /&gt;" FuzzySelectorArgument="&lt;uia automationid='10126' cls='Static' name='Origin' role='text' check:fulltext='Origin' /&gt;" Guid="9503ce75-b7c5-4aae-9e15-ada726ca60a2" SearchSteps="Selector, FuzzySelector" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
@@ -309,9 +309,9 @@
               </uix:NClick>
               <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Units'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7ac14091-d093-4e9b-93bc-1987bbf36065" Version="V4">
                 <uix:NClick.Target>
-                  <uix:TargetAnchorable ContentHash="9QhWgXaswUKUStiV3fh3SA" DesignTimeRectangle="292, 205, 54, 20" DesignTimeScaleFactor="1" ElementType="RadioButton" FullSelectorArgument="&lt;uia automationid='10442' cls='Button' name='mm' /&gt;" FuzzySelectorArgument="&lt;uia automationid='10442' cls='Button' name='mm' role='radio button' check:fulltext='mm' /&gt;" Guid="df0e8872-db3d-43db-b9c1-146cd548eea0" InformativeScreenshot="738b179037de4eb9e72a2ec583fe186a.png" Reference="zxpQFLMOe0mqn2odXD-0jg/Nox1VJqA-0eH_qzDjMs5Zg" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='#32770' title='Set Model Size' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable ContentHash="9QhWgXaswUKUStiV3fh3SA" DesignTimeRectangle="292, 205, 54, 20" DesignTimeScaleFactor="1" ElementType="RadioButton" FullSelectorArgument="&lt;uia automationid='10442' cls='Button' name='mm' /&gt;" FuzzySelectorArgument="&lt;uia automationid='10442' cls='Button' name='mm' role='radio button' check:fulltext='mm' /&gt;" Guid="df0e8872-db3d-43db-b9c1-146cd548eea0" InformativeScreenshot="502ce6ce47c2db4171697efd0eb0cc09.png" Reference="zxpQFLMOe0mqn2odXD-0jg/Nox1VJqA-0eH_qzDjMs5Zg" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='#32770' title='Set Model Size' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
                         <uix:Target DesignTimeRectangle="292, 181, 77, 20" ElementType="Text" FullSelectorArgument="&lt;uia automationid='10127' cls='Static' name='Units' /&gt;" FuzzySelectorArgument="&lt;uia automationid='10127' cls='Static' name='Units' role='text' check:fulltext='Units' /&gt;" Guid="7031de13-00cc-4290-8af6-ad1cb5cc2d41" SearchSteps="Selector, FuzzySelector" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>

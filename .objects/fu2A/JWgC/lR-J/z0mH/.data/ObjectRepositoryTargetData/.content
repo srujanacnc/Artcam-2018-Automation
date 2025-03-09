@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2I4bXExAXkm6brUwfCDkkw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="28, 31, 13, 21" DesignTimeScaleFactor="1" ElementType="CheckBox" FullSelectorArgument="&lt;uia automationid='UseFixedNudgeDistanceCheckBox' name='Use fixed nudge distance' role='check box' /&gt;" FuzzySelectorArgument="&lt;uia automationid='UseFixedNudgeDistanceCheckBox' name='Use fixed nudge distance' role='check box' /&gt;" Guid="50a414f4-dec0-4d22-bd86-9d224372d8a2" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='#32770' title='Nudge Distance' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="46, 31, 121, 21" ElementType="Text" FullSelectorArgument="&lt;uia idx='2' name='Use fixed nudge distance' role='text' /&gt;" FuzzySelectorArgument="&lt;uia automationid='' name='Use fixed nudge distance' role='text' check:fulltext='Use fixed nudge distance' /&gt;" Guid="522cb534-fe2a-471a-83ff-6dcb9bc2629c" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="73db54bcc9e3e7f934c30cd33e4872b1.png" xmlns="">0uzMNl8d3OE-WARA9DQwy9w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Check</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

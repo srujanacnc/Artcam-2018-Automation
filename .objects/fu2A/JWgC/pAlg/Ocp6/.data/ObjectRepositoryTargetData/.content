@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="j643gpe6M0OcwDV5x4uIhg" Reference="BPn6SeZv5kaUlPUoI-KGnw/Ocp6i353ekeN9eQJqAHsXg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="292, 229, 71, 20" DesignTimeScaleFactor="1" ElementType="RadioButton" FullSelectorArgument="&lt;wnd ctrlid='10336' title='inches' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='10336' title='inches' check:fulltext='inches' /&gt;" Guid="2decb3ef-d6a2-44b6-88d5-2724db645d3f" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='#32770' title='Set Model Size' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="337, 265, 75, 23" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlid='2' title='Cancel' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='2' title='Cancel' check:text='Cancel' /&gt;" Guid="8208e24b-4677-49fd-9da3-c66696aa09a4" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a420b8155373be88dbf9d5d3e7c39843.png" xmlns="">0dOYoTuXQdEWx9lUsEoZkBQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
