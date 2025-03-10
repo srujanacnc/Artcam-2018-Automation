@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Create_Vector_Layers" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Create_Vector_Layers" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -83,90 +83,179 @@
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Create_Vector_Layers" sap:VirtualizedContainerService.HintSize="1276,1814" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Create_Vector_Layers" sap:VirtualizedContainerService.HintSize="1276,828" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="(Untitled) - Autodesk ArtCAM Premium 2018(2)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,1791" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="777e9407-7bf4-4d81-afdd-d380f117877f" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="(Untitled) - Autodesk ArtCAM Premium 2018(2)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="518,805" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="777e9407-7bf4-4d81-afdd-d380f117877f" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1501" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,515" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DisplayName="Click 'Vectors'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="777e9407-7bf4-4d81-afdd-d380f117877f" Version="V4">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable DesignTimeRectangle="230, 42, 27, 22" DesignTimeScaleFactor="1" Guid="2d76d7d9-6a8a-4749-b297-3eef040187a3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABsAAAAWCAYAAAAxSueLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGOSURBVEhLvZTBsYMwDER/T4ChAyZABxzyC6YIGEqgAGeenSXC40BOHHYsS1qtJXv8N46jvwv3ihVF4VNUVeXLstz32AC/Yt9sYHn4tc+KKckWAs7Vbzjjc7vf5toaqpsVAyTV9bG4VvyPRxeAbWMSx2+FwFcxFa3rJtgQhbZt/TRNAdg2FnnNLm5rno5RBCtGvOs6P89zALY44lmuOOBEjHG4d/Jx/n3f72LYHw6dRNEoJv6FWLyvmCzotMMw7GLY6iTNTe8tKwbZilk/+7QzfLGrmGfFrP/0zpqmCQ+Ae6EoXWA/n/9+XdcAbHzEyMGGA/enMWpcEHlxy7LsnQBEtm0LwLYxcuHApQa1VPdEzN0jFsfo7hkjJ7r1gZAsMYE9ZLqQGDa+XK58qnsyxmMB9iKmnVmO8nUwccClGCvQz0Cce5EYtjj6aSz3UgyIkH7ExHgAvDiAjU9xcnP3Db6KkSiSTqkVPx0BPQKbA/D/JKYTsgqfQvEA7HO+lMOqulmxNClXgNXaNsfyiMV94V8FhUpA0psYXgAAAABJRU5ErkJggg==" InformativeScreenshot="ff6cd8c5327285a99a0961cec0070a5e.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                      <uix:Target DesignTimeRectangle="50, 44, 43, 20" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' automationid='' check:text='Vectors' /&gt;" Guid="5255dc46-1acf-4fc2-9b00-887e75701f91" SearchSteps="Selector, FuzzySelector" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NClick.Target>
-              <uix:NClick.VerifyOptions>
-                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                  <uix:VerifyExecutionOptions.Retry>
-                    <InArgument x:TypeArguments="x:Boolean" />
-                  </uix:VerifyExecutionOptions.Retry>
-                  <uix:VerifyExecutionOptions.Timeout>
-                    <InArgument x:TypeArguments="x:Double" />
-                  </uix:VerifyExecutionOptions.Timeout>
-                </uix:VerifyExecutionOptions>
-              </uix:NClick.VerifyOptions>
-            </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,257" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="777e9407-7bf4-4d81-afdd-d380f117877f" Text="messure[k(Enter)]" Version="V4" />
-            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DisplayName="Click 'Vectors'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="777e9407-7bf4-4d81-afdd-d380f117877f" Version="V4">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable DesignTimeRectangle="230, 42, 27, 22" DesignTimeScaleFactor="1" Guid="2d76d7d9-6a8a-4749-b297-3eef040187a3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABsAAAAWCAYAAAAxSueLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGOSURBVEhLvZTBsYMwDER/T4ChAyZABxzyC6YIGEqgAGeenSXC40BOHHYsS1qtJXv8N46jvwv3ihVF4VNUVeXLstz32AC/Yt9sYHn4tc+KKckWAs7Vbzjjc7vf5toaqpsVAyTV9bG4VvyPRxeAbWMSx2+FwFcxFa3rJtgQhbZt/TRNAdg2FnnNLm5rno5RBCtGvOs6P89zALY44lmuOOBEjHG4d/Jx/n3f72LYHw6dRNEoJv6FWLyvmCzotMMw7GLY6iTNTe8tKwbZilk/+7QzfLGrmGfFrP/0zpqmCQ+Ae6EoXWA/n/9+XdcAbHzEyMGGA/enMWpcEHlxy7LsnQBEtm0LwLYxcuHApQa1VPdEzN0jFsfo7hkjJ7r1gZAsMYE9ZLqQGDa+XK58qnsyxmMB9iKmnVmO8nUwccClGCvQz0Cce5EYtjj6aSz3UgyIkH7ExHgAvDiAjU9xcnP3Db6KkSiSTqkVPx0BPQKbA/D/JKYTsgqfQvEA7HO+lMOqulmxNClXgNXaNsfyiMV94V8FhUpA0psYXgAAAABJRU5ErkJggg==" InformativeScreenshot="ff6cd8c5327285a99a0961cec0070a5e.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target DesignTimeRectangle="50, 44, 43, 20" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' automationid='' check:text='Vectors' /&gt;" Guid="5255dc46-1acf-4fc2-9b00-887e75701f91" SearchSteps="Selector, FuzzySelector" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NClick.Target>
-              <uix:NClick.VerifyOptions>
-                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                  <uix:VerifyExecutionOptions.Retry>
-                    <InArgument x:TypeArguments="x:Boolean" />
-                  </uix:VerifyExecutionOptions.Retry>
-                  <uix:VerifyExecutionOptions.Timeout>
-                    <InArgument x:TypeArguments="x:Double" />
-                  </uix:VerifyExecutionOptions.Timeout>
-                </uix:VerifyExecutionOptions>
-              </uix:NClick.VerifyOptions>
-            </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,257" sap2010:WorkflowViewState.IdRef="NTypeInto_2" Text="toolpath[k(Enter)]" Version="V4" />
-            <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DisplayName="Click 'Vectors'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="777e9407-7bf4-4d81-afdd-d380f117877f" Version="V4">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable DesignTimeRectangle="230, 42, 27, 22" DesignTimeScaleFactor="1" Guid="2d76d7d9-6a8a-4749-b297-3eef040187a3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABsAAAAWCAYAAAAxSueLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGOSURBVEhLvZTBsYMwDER/T4ChAyZABxzyC6YIGEqgAGeenSXC40BOHHYsS1qtJXv8N46jvwv3ihVF4VNUVeXLstz32AC/Yt9sYHn4tc+KKckWAs7Vbzjjc7vf5toaqpsVAyTV9bG4VvyPRxeAbWMSx2+FwFcxFa3rJtgQhbZt/TRNAdg2FnnNLm5rno5RBCtGvOs6P89zALY44lmuOOBEjHG4d/Jx/n3f72LYHw6dRNEoJv6FWLyvmCzotMMw7GLY6iTNTe8tKwbZilk/+7QzfLGrmGfFrP/0zpqmCQ+Ae6EoXWA/n/9+XdcAbHzEyMGGA/enMWpcEHlxy7LsnQBEtm0LwLYxcuHApQa1VPdEzN0jFsfo7hkjJ7r1gZAsMYE9ZLqQGDa+XK58qnsyxmMB9iKmnVmO8nUwccClGCvQz0Cce5EYtjj6aSz3UgyIkH7ExHgAvDiAjU9xcnP3Db6KkSiSTqkVPx0BPQKbA/D/JKYTsgqfQvEA7HO+lMOqulmxNClXgNXaNsfyiMV94V8FhUpA0psYXgAAAABJRU5ErkJggg==" InformativeScreenshot="ff6cd8c5327285a99a0961cec0070a5e.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target DesignTimeRectangle="50, 44, 43, 20" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' automationid='' check:text='Vectors' /&gt;" Guid="5255dc46-1acf-4fc2-9b00-887e75701f91" SearchSteps="Selector, FuzzySelector" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NClick.Target>
-              <uix:NClick.VerifyOptions>
-                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                  <uix:VerifyExecutionOptions.Retry>
-                    <InArgument x:TypeArguments="x:Boolean" />
-                  </uix:VerifyExecutionOptions.Retry>
-                  <uix:VerifyExecutionOptions.Timeout>
-                    <InArgument x:TypeArguments="x:Double" />
-                  </uix:VerifyExecutionOptions.Timeout>
-                </uix:VerifyExecutionOptions>
-              </uix:NClick.VerifyOptions>
-            </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_3" Text="cutting[k(Enter)]" Version="V4" />
+            <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ExpandVectors - Invoke Workflow File (Artcam activities\ExpanderdAndFolders\ExpandVectors.xaml)" sap:VirtualizedContainerService.HintSize="450,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Artcam activities\ExpanderdAndFolders\ExpandVectors.xaml">
+              <ui:InvokeWorkflowFile.Arguments>
+                <scg:Dictionary x:TypeArguments="x:String, Argument" />
+              </ui:InvokeWorkflowFile.Arguments>
+            </ui:InvokeWorkflowFile>
+            <Sequence DisplayName="Model" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DisplayName="Click 'Vectors'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="777e9407-7bf4-4d81-afdd-d380f117877f" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="230, 42, 27, 22" DesignTimeScaleFactor="1" Guid="2d76d7d9-6a8a-4749-b297-3eef040187a3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABsAAAAWCAYAAAAxSueLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGOSURBVEhLvZTBsYMwDER/T4ChAyZABxzyC6YIGEqgAGeenSXC40BOHHYsS1qtJXv8N46jvwv3ihVF4VNUVeXLstz32AC/Yt9sYHn4tc+KKckWAs7Vbzjjc7vf5toaqpsVAyTV9bG4VvyPRxeAbWMSx2+FwFcxFa3rJtgQhbZt/TRNAdg2FnnNLm5rno5RBCtGvOs6P89zALY44lmuOOBEjHG4d/Jx/n3f72LYHw6dRNEoJv6FWLyvmCzotMMw7GLY6iTNTe8tKwbZilk/+7QzfLGrmGfFrP/0zpqmCQ+Ae6EoXWA/n/9+XdcAbHzEyMGGA/enMWpcEHlxy7LsnQBEtm0LwLYxcuHApQa1VPdEzN0jFsfo7hkjJ7r1gZAsMYE9ZLqQGDa+XK58qnsyxmMB9iKmnVmO8nUwccClGCvQz0Cce5EYtjj6aSz3UgyIkH7ExHgAvDiAjU9xcnP3Db6KkSiSTqkVPx0BPQKbA/D/JKYTsgqfQvEA7HO+lMOqulmxNClXgNXaNsfyiMV94V8FhUpA0psYXgAAAABJRU5ErkJggg==" InformativeScreenshot="ff6cd8c5327285a99a0961cec0070a5e.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="50, 44, 43, 20" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' automationid='' check:text='Vectors' /&gt;" Guid="5255dc46-1acf-4fc2-9b00-887e75701f91" SearchSteps="Selector, FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="777e9407-7bf4-4d81-afdd-d380f117877f" Text="model[k(Enter)]" Version="V4" />
+            </Sequence>
+            <Sequence DisplayName="Messure" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_7">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DisplayName="Click 'Vectors'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="777e9407-7bf4-4d81-afdd-d380f117877f" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="230, 42, 27, 22" DesignTimeScaleFactor="1" Guid="2d76d7d9-6a8a-4749-b297-3eef040187a3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABsAAAAWCAYAAAAxSueLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGOSURBVEhLvZTBsYMwDER/T4ChAyZABxzyC6YIGEqgAGeenSXC40BOHHYsS1qtJXv8N46jvwv3ihVF4VNUVeXLstz32AC/Yt9sYHn4tc+KKckWAs7Vbzjjc7vf5toaqpsVAyTV9bG4VvyPRxeAbWMSx2+FwFcxFa3rJtgQhbZt/TRNAdg2FnnNLm5rno5RBCtGvOs6P89zALY44lmuOOBEjHG4d/Jx/n3f72LYHw6dRNEoJv6FWLyvmCzotMMw7GLY6iTNTe8tKwbZilk/+7QzfLGrmGfFrP/0zpqmCQ+Ae6EoXWA/n/9+XdcAbHzEyMGGA/enMWpcEHlxy7LsnQBEtm0LwLYxcuHApQa1VPdEzN0jFsfo7hkjJ7r1gZAsMYE9ZLqQGDa+XK58qnsyxmMB9iKmnVmO8nUwccClGCvQz0Cce5EYtjj6aSz3UgyIkH7ExHgAvDiAjU9xcnP3Db6KkSiSTqkVPx0BPQKbA/D/JKYTsgqfQvEA7HO+lMOqulmxNClXgNXaNsfyiMV94V8FhUpA0psYXgAAAABJRU5ErkJggg==" InformativeScreenshot="ff6cd8c5327285a99a0961cec0070a5e.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="50, 44, 43, 20" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' automationid='' check:text='Vectors' /&gt;" Guid="5255dc46-1acf-4fc2-9b00-887e75701f91" SearchSteps="Selector, FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="777e9407-7bf4-4d81-afdd-d380f117877f" Text="messure[k(Enter)]" Version="V4" />
+            </Sequence>
+            <Sequence DisplayName="Bin" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_8">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DisplayName="Click 'Vectors'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="777e9407-7bf4-4d81-afdd-d380f117877f" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="230, 42, 27, 22" DesignTimeScaleFactor="1" Guid="2d76d7d9-6a8a-4749-b297-3eef040187a3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABsAAAAWCAYAAAAxSueLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGOSURBVEhLvZTBsYMwDER/T4ChAyZABxzyC6YIGEqgAGeenSXC40BOHHYsS1qtJXv8N46jvwv3ihVF4VNUVeXLstz32AC/Yt9sYHn4tc+KKckWAs7Vbzjjc7vf5toaqpsVAyTV9bG4VvyPRxeAbWMSx2+FwFcxFa3rJtgQhbZt/TRNAdg2FnnNLm5rno5RBCtGvOs6P89zALY44lmuOOBEjHG4d/Jx/n3f72LYHw6dRNEoJv6FWLyvmCzotMMw7GLY6iTNTe8tKwbZilk/+7QzfLGrmGfFrP/0zpqmCQ+Ae6EoXWA/n/9+XdcAbHzEyMGGA/enMWpcEHlxy7LsnQBEtm0LwLYxcuHApQa1VPdEzN0jFsfo7hkjJ7r1gZAsMYE9ZLqQGDa+XK58qnsyxmMB9iKmnVmO8nUwccClGCvQz0Cce5EYtjj6aSz3UgyIkH7ExHgAvDiAjU9xcnP3Db6KkSiSTqkVPx0BPQKbA/D/JKYTsgqfQvEA7HO+lMOqulmxNClXgNXaNsfyiMV94V8FhUpA0psYXgAAAABJRU5ErkJggg==" InformativeScreenshot="ff6cd8c5327285a99a0961cec0070a5e.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="50, 44, 43, 20" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' automationid='' check:text='Vectors' /&gt;" Guid="5255dc46-1acf-4fc2-9b00-887e75701f91" SearchSteps="Selector, FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="777e9407-7bf4-4d81-afdd-d380f117877f" Text="bin[k(Enter)]" Version="V4" />
+            </Sequence>
+            <Sequence DisplayName="Toolpath" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DisplayName="Click 'Vectors'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="777e9407-7bf4-4d81-afdd-d380f117877f" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="230, 42, 27, 22" DesignTimeScaleFactor="1" Guid="2d76d7d9-6a8a-4749-b297-3eef040187a3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABsAAAAWCAYAAAAxSueLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGOSURBVEhLvZTBsYMwDER/T4ChAyZABxzyC6YIGEqgAGeenSXC40BOHHYsS1qtJXv8N46jvwv3ihVF4VNUVeXLstz32AC/Yt9sYHn4tc+KKckWAs7Vbzjjc7vf5toaqpsVAyTV9bG4VvyPRxeAbWMSx2+FwFcxFa3rJtgQhbZt/TRNAdg2FnnNLm5rno5RBCtGvOs6P89zALY44lmuOOBEjHG4d/Jx/n3f72LYHw6dRNEoJv6FWLyvmCzotMMw7GLY6iTNTe8tKwbZilk/+7QzfLGrmGfFrP/0zpqmCQ+Ae6EoXWA/n/9+XdcAbHzEyMGGA/enMWpcEHlxy7LsnQBEtm0LwLYxcuHApQa1VPdEzN0jFsfo7hkjJ7r1gZAsMYE9ZLqQGDa+XK58qnsyxmMB9iKmnVmO8nUwccClGCvQz0Cce5EYtjj6aSz3UgyIkH7ExHgAvDiAjU9xcnP3Db6KkSiSTqkVPx0BPQKbA/D/JKYTsgqfQvEA7HO+lMOqulmxNClXgNXaNsfyiMV94V8FhUpA0psYXgAAAABJRU5ErkJggg==" InformativeScreenshot="ff6cd8c5327285a99a0961cec0070a5e.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="50, 44, 43, 20" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' automationid='' check:text='Vectors' /&gt;" Guid="5255dc46-1acf-4fc2-9b00-887e75701f91" SearchSteps="Selector, FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_2" Text="toolpath[k(Enter)]" Version="V4" />
+            </Sequence>
+            <Sequence DisplayName="Cutting" sap:VirtualizedContainerService.HintSize="450,50" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="1" DisplayName="Click 'Vectors'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="777e9407-7bf4-4d81-afdd-d380f117877f" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable DesignTimeRectangle="230, 42, 27, 22" DesignTimeScaleFactor="1" Guid="2d76d7d9-6a8a-4749-b297-3eef040187a3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABsAAAAWCAYAAAAxSueLAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGOSURBVEhLvZTBsYMwDER/T4ChAyZABxzyC6YIGEqgAGeenSXC40BOHHYsS1qtJXv8N46jvwv3ihVF4VNUVeXLstz32AC/Yt9sYHn4tc+KKckWAs7Vbzjjc7vf5toaqpsVAyTV9bG4VvyPRxeAbWMSx2+FwFcxFa3rJtgQhbZt/TRNAdg2FnnNLm5rno5RBCtGvOs6P89zALY44lmuOOBEjHG4d/Jx/n3f72LYHw6dRNEoJv6FWLyvmCzotMMw7GLY6iTNTe8tKwbZilk/+7QzfLGrmGfFrP/0zpqmCQ+Ae6EoXWA/n/9+XdcAbHzEyMGGA/enMWpcEHlxy7LsnQBEtm0LwLYxcuHApQa1VPdEzN0jFsfo7hkjJ7r1gZAsMYE9ZLqQGDa+XK58qnsyxmMB9iKmnVmO8nUwccClGCvQz0Cce5EYtjj6aSz3UgyIkH7ExHgAvDiAjU9xcnP3Db6KkSiSTqkVPx0BPQKbA/D/JKYTsgqfQvEA7HO+lMOqulmxNClXgNXaNsfyiMV94V8FhUpA0psYXgAAAABJRU5ErkJggg==" InformativeScreenshot="ff6cd8c5327285a99a0961cec0070a5e.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="50, 44, 43, 20" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' automationid='' check:text='Vectors' /&gt;" Guid="5255dc46-1acf-4fc2-9b00-887e75701f91" SearchSteps="Selector, FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_3" Text="cutting[k(Enter)]" Version="V4" />
+            </Sequence>
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>

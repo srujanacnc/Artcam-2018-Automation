@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MMX6DJs_DEmcOUoeWmDCEw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="530, 445, 255, 15" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;uia automationid='324' cls='ComboBox' name='File name:' /&gt;&lt;uia automationid='1001' cls='Edit' name='File name:' /&gt;" FuzzySelectorArgument="&lt;uia automationid='324' cls='ComboBox' name='File name:' /&gt;&lt;uia automationid='1001' cls='Edit' name='File name:' role='edit' /&gt;" Guid="71fd6b00-9975-4ff7-ac89-626afee4a624" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='#32770' title='Save Toolpaths' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="464, 445, 50, 13" ElementType="Text" FullSelectorArgument="&lt;uia automationid='335' cls='Static' name='File name:' /&gt;" FuzzySelectorArgument="&lt;uia automationid='335' cls='Static' name='File name:' role='text' check:fulltext='File name:' /&gt;" Guid="e33e04ac-1fa8-4cb2-affe-17a8d838e633" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="84da84bc4cfdf8b0f49ce8f700e1dfe5.png" xmlns="">0Ti11nKjJNka9Swq-Xu4EDw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Cq-7TOSqYEGDdvnJ8Llc2w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="166, 125, 75, 23" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;uia automationid='6' cls='Button' name='Yes' /&gt;" FuzzySelectorArgument="&lt;uia automationid='6' cls='Button' name='Yes' role='button' check:fulltext='Yes' /&gt;" Guid="ae17f95a-a925-4bb5-ae21-65b4cbed9d81" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='#32770' title='Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="248, 125, 75, 23" ElementType="Button" FullSelectorArgument="&lt;uia automationid='7' cls='Button' name='No' /&gt;" FuzzySelectorArgument="&lt;uia automationid='7' cls='Button' name='No' role='button' check:fulltext='No' /&gt;" Guid="1e2bcdd8-dd27-42f9-aed2-7590e750ecec" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ac576796b4d042914790ba6d6e8d41bf.png" xmlns="">0ITrgX_vmvEWShC6qky-1kg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

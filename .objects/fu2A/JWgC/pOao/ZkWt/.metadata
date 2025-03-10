@@ -1,0 +1,14 @@
+﻿{
+  "Name": "image Save Toolpaths",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "ZkWtNdzoN02fVoMGRQ46bg",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/ZkWtNdzoN02fVoMGRQ46bg",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/pOaoeUXZPUqHZ0T33BaHCA",
+  "Created": "2025-03-09T21:30:41.3902143Z",
+  "Updated": "2025-03-09T21:30:41.3902143Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

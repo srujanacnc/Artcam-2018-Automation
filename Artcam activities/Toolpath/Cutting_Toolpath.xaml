@@ -236,7 +236,7 @@
       <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="toolpath_2d" sap:VirtualizedContainerService.HintSize="1276,2837" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="toolpath_2d" sap:VirtualizedContainerService.HintSize="1276,3202" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:Window" Name="activeWindow" />
     </Sequence.Variables>
@@ -245,28 +245,28 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="D200 long 64X3.3 - Autodesk ArtCAM Premium 20" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="518,2814" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" OpenMode="Never" ScopeGuid="7ac14091-d093-4e9b-93bc-1987bbf36065" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="D200 long 64X3.3 - Autodesk ArtCAM Premium 20(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="518,3179" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" OpenMode="Never" ScopeGuid="7ac14091-d093-4e9b-93bc-1987bbf36065" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,2524" sap2010:WorkflowViewState.IdRef="Sequence_8">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,2889" sap2010:WorkflowViewState.IdRef="Sequence_8">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Sequence sap:VirtualizedContainerService.HintSize="450,2462" sap2010:WorkflowViewState.IdRef="Sequence_7">
+            <Sequence sap:VirtualizedContainerService.HintSize="450,2827" sap2010:WorkflowViewState.IdRef="Sequence_7">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Toolpaths'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7ac14091-d093-4e9b-93bc-1987bbf36065" Version="V4">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Toolpaths'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7ac14091-d093-4e9b-93bc-1987bbf36065" Version="V4">
                 <uix:NClick.Target>
-                  <uix:TargetAnchorable CVScreenId="69f30a17-7e98-409e-8536-4fa62b605287" DesignTimeRectangle="1697, 332, 64, 22" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia automationid='59648' cls='SysTreeView32' /&gt;&lt;uia name='Toolpaths' role='tree item' /&gt;" FuzzySelectorArgument="&lt;uia automationid='59648' cls='SysTreeView32' /&gt;&lt;uia name='Toolpaths' role='tree item' automationid='' check:text='Toolpaths' /&gt;" Guid="268ce576-2fcf-44f4-88da-9c1da5b3ed55" InformativeScreenshot="4cae680adb35f54fe8e75b7f75b90772.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='C1 SB0203 - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive" />
+                  <uix:TargetAnchorable ContentHash="zlVipu2jyUKGpNXrNCzztQ" DesignTimeRectangle="50, 164, 56, 20" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia automationid='59648' cls='SysTreeView32' /&gt;&lt;uia name='Toolpaths' role='tree item' /&gt;" FuzzySelectorArgument="&lt;uia automationid='59648' cls='SysTreeView32' /&gt;&lt;uia name='Toolpaths' role='tree item' automationid='' check:text='Toolpaths' /&gt;" Guid="79d775d5-6257-4bef-b6c6-e19ad1f7a6a2" InformativeScreenshot="d7332dddad8f24442fbb3432cb2bbd69.png" Reference="BPn6SeZv5kaUlPUoI-KGnw/gpVngDi9t0WLUdr3Kp_ijQ" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive" />
                 </uix:NClick.Target>
                 <uix:NClick.VerifyOptions>
                   <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
@@ -414,7 +414,7 @@
                   </uix:TargetAnchorable>
                 </uix:NSetText.Target>
               </uix:NSetText>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Calculate Now'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7ac14091-d093-4e9b-93bc-1987bbf36065" Version="V4">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Calculate Now'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7ac14091-d093-4e9b-93bc-1987bbf36065" Version="V4">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable DesignTimeRectangle="190, 626, 88, 23" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia automationid='CalculateButton' name='Calculate Now' role='button' check:fulltext='Calculate Now' /&gt;" Guid="8611eff3-02cd-4bf6-9875-ef3760a4d43c" InformativeScreenshot="e1672dab5e1a3e00afc19bd17a23314f.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' idx='*' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -435,12 +435,25 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
+              <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
+              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,240" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][d(alt)][k(f4)][u(alt)][u(hk)]" Version="V4">
+                <uix:NKeyboardShortcuts.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NKeyboardShortcuts.VerifyOptions>
+              </uix:NKeyboardShortcuts>
             </Sequence>
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
       <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="-8, -8, 1936, 1048" FilePath="C:\\Program Files\\Autodesk\\ArtCAM 2018\\Exec\\artcampro.exe" IconBase64="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" InformativeScreenshot="08f5add09162e4f89839851291f30449.png" Selector="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' omit:title='*Autodesk ArtCAM Premium 2018' /&gt;" Version="V2" />
+        <uix:TargetApp Area="-8, -8, 1936, 1048" ContentHash="emQD-HVoHU6aH2JjSX0bFg" FilePath="C:\\Program Files\\Autodesk\\ArtCAM 2018\\Exec\\artcampro.exe" IconBase64="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" InformativeScreenshot="08f5add09162e4f89839851291f30449.png" Reference="BPn6SeZv5kaUlPUoI-KGnw/BU38dCNkJkKH3HvIjYoRew" Selector="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' omit:title='*Autodesk ArtCAM Premium 2018' /&gt;" Version="V2" />
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
   </Sequence>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GIFAkJFzdEOdbINonquXTA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="98, 65, 40, 40" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;uia name='Save' role='button' /&gt;" FuzzySelectorArgument="&lt;uia name='Save' role='button' automationid='' check:fulltext='Save' /&gt;" Guid="3bd32ae5-0f85-4888-a2d0-73b9502a250c" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='(Untitled) - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="120, 33, 46, 28" FullSelectorArgument="&lt;uia name='Model' role='menu item' /&gt;" FuzzySelectorArgument="&lt;uia name='Model' role='menu item' automationid='' check:fulltext='Model' /&gt;" Guid="f0d4ec3f-2691-4d22-b0a9-5f161798d33a" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2ad93437424f74bfca0824bf86dcb0df.png" xmlns="">0QIlTZ8jCSUiRawKGcsl5ZQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

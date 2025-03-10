@@ -1,0 +1,13 @@
+﻿{
+  "Name": "(Untitled) - Autodesk ArtCAM Premium 2018(3)",
+  "Type": "Screen",
+  "Id": "pOaoeUXZPUqHZ0T33BaHCA",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/pOaoeUXZPUqHZ0T33BaHCA",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/JWgCNBK9VEG1dFMpqSp7ig",
+  "Created": "2025-03-09T21:29:16.4326498Z",
+  "Updated": "2025-03-09T21:29:16.4326498Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

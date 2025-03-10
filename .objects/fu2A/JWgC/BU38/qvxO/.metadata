@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Icon 'image Create Profile To…'",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "qvxOjzANUUupsSgaGRgzRw",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/qvxOjzANUUupsSgaGRgzRw",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/BU38dCNkJkKH3HvIjYoRew",
+  "Created": "2025-03-09T20:46:25.5205371Z",
+  "Updated": "2025-03-09T20:46:25.5205371Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

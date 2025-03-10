@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Calculating",
+  "Type": "Element",
+  "Id": "_JIxZrp5Mk-M-bLO095Z3w",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/_JIxZrp5Mk-M-bLO095Z3w",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/LWA6FESXwEmBE738B8kFjQ",
+  "Created": "2025-03-09T21:09:03.6067375Z",
+  "Updated": "2025-03-09T21:09:03.6067375Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="V59aYaonzU6w275xZTkZCQ" Reference="BPn6SeZv5kaUlPUoI-KGnw/_JIxZrp5Mk-M-bLO095Z3w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="23, 47, 413, 33" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;uia automationid='10829' cls='Static' name='Scanning Model&amp;#xA;0% completed' role='text' /&gt;" Guid="7c7ec5e0-9b70-4fe7-9a07-4cb13af08881" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='#32770' title='Calculating' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ad3aeec21c9e1957f383636502cb5e17.png" xmlns="">01cPWcJUgZUOflF3ddPrmJQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

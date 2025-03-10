@@ -12,6 +12,7 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "is3DComplete&Sequence_21",
         "path&Sequence_1",
         "eventText&Sequence_2"
       ],
@@ -105,6 +106,33 @@
         "width",
         "hight"
       ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Artcam activities/Toolpath/Save_Toolpth_Files.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "startNumberInput&Sequence_1",
+        "startNumber&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Artcam activities/ExpanderdAndFolders/ExpandVectors.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Select/Select_Toolpath.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     }

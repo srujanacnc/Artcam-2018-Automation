@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7t_VVPV6GUWkWxCcgnQ0KQ" Reference="BPn6SeZv5kaUlPUoI-KGnw/3uyrVdqdRUead_IXV2bg_Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="73, 184, 17, 20" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia automationid='59648' cls='SysTreeView32' /&gt;&lt;uia name='2d' role='tree item' /&gt;" FuzzySelectorArgument="&lt;uia automationid='59648' cls='SysTreeView32' /&gt;&lt;uia name='2d' role='tree item' automationid='' check:text='2d' /&gt;" Guid="491a2e49-ee0d-4676-8ebc-93fadad8e507" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="50, 164, 56, 20" FullSelectorArgument="&lt;uia automationid='59648' cls='SysTreeView32' /&gt;&lt;uia name='Toolpaths' role='tree item' /&gt;" FuzzyAccuracy="0.85" FuzzySelectorArgument="&lt;uia automationid='59648' cls='SysTreeView32' /&gt;&lt;uia name='Toolpaths' role='tree item' automationid='' check:text='Toolpaths' /&gt;" Guid="aac569d5-7e0a-43b4-9e30-a9a1bf6d263e" ImageBase64="" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="21f5a44bc5f4022a051a5c9941b94a2b.png" xmlns="">0YwkynTFKNECnwo4gT3BS2A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

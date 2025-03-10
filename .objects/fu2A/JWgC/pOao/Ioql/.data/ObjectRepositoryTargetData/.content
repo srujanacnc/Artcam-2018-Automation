@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-_kHBncOkUa4G3446cA5DQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="818, 519, 75, 23" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;uia automationid='2' cls='Button' name='Cancel' /&gt;" FuzzySelectorArgument="&lt;uia automationid='2' cls='Button' name='Cancel' role='button' check:fulltext='Cancel' /&gt;" Guid="fe623e0c-1dc9-4210-9fb5-a211fbb53056" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='#32770' title='Save Toolpaths' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="728, 519, 75, 23" ElementType="Button" FullSelectorArgument="&lt;uia automationid='304' cls='Button' name='Save' /&gt;" FuzzySelectorArgument="&lt;uia automationid='304' cls='Button' name='Save' role='button' check:fulltext='Save' /&gt;" Guid="3a1b7101-2375-412d-a909-a7ab8ce15c5a" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f00d475c03ea5b295a6001d71d11b9ca.png" xmlns="">0WuK2KpQqUUmnEjYDmscxJA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
