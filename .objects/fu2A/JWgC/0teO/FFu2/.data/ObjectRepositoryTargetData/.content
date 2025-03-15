@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YjlhsiFyBEOPqe1l3K2LOA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1, 24, 278, 876" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;ctrl name='Project' role='client' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Project' role='client' automationid='' check:text='Project' /&gt;" Guid="0a165a21-9e49-4cc7-bd73-25629e5678a5" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="bafe0fd8da732df171a7980d1e238b42.png" xmlns="">0eJqwLW6wxEaDiaNsfD1MdQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TakeScreenshot</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

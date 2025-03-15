@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Project",
+  "Type": "Element",
+  "Id": "FFu2S3LK_0mOgF4QenTZ5w",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/FFu2S3LK_0mOgF4QenTZ5w",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/0teO8Yd5rESb0zgD-NvybQ",
+  "Created": "2025-03-10T08:22:08.7191539Z",
+  "Updated": "2025-03-10T08:22:08.7191539Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

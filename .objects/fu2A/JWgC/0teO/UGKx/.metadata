@@ -1,0 +1,13 @@
+﻿{
+  "Name": "artcampro.exe Project",
+  "Type": "Element",
+  "Id": "UGKxbFSA30Sj8OPL6SGZuw",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/UGKxbFSA30Sj8OPL6SGZuw",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/0teO8Yd5rESb0zgD-NvybQ",
+  "Created": "2025-03-10T08:07:30.7212201Z",
+  "Updated": "2025-03-10T08:07:30.7212201Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

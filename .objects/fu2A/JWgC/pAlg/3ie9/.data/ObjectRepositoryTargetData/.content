@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="E3lrZ3EOqEys570y84bD3Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="255, 80, 20, 23" DesignTimeScaleFactor="1" Guid="ee14b7ad-d59e-4390-a862-50a564ed60f1" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIlSURBVEhL3ZVfaxNREMX9Tslmd9OE1sSUmhoVRFRobQy1SSshglj0QaFQxFIVkmpT2hSsRUTwO477m9u53T9V33047NkzZ87M3d2Qa6VSSQxBEEilUpEwjJSXy2XFfG1O3o0GMn41UsDRrI43DEPtzQRStALAGCTX+bmqvO4+kN3+qgKORs2WcIuEl4E2yabavRkJWKjXFHAbnO/xgVZIDzD4Jq4XPB9kff8MRLdaEDjkdWB9Vx7ZzMCOFVer0my1FPB0zUDvH17K5YuJ41iebGzK3mQqB6fnCnj36UBr5qMn81IAUxDts+G6/XZHJrMz6W4MZKm9rICjvXyzk/ESXDgyoq6faGwxThoXl256D4Cj6aDEg9d6c4FufXgURbJ3MJVefysT5gJdqHsUR+pFLwTatwW/3mjK5PSbtG91dLptAOyeGh68hUAM6cCFRkOP2+7clkqyOVoaaMudO+rBq1o60ASC4YS/Hx/K+uYzP9DC4GjU8OA13QcSZqCI1htsycfpTGr1uh9izWjU0s84s2E+kDdH04fDE+kPR+qxQHh/+FxrOiy5LwSaYEcz/eHKY33wzdai1+B84I9W1rxGT+bI3DDdb3iBKIpl99NEhi+2fTMcjVrae+WG+UCw2luX/S/HUk1+wwCOlvcVAtkyHcg9NX5un79+l7v37ivgaNTsEf01kKsLc8+y0bwhs/MfcvbzlwKO5npdn/X6QGDi//yfUpbf1KMq7mWgVVsAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0cf07d93-6acd-4cb5-85bf-14a4b2beccf8" CvTextArea="71, 87, 47, 15" CvTextArgument="toolpath" CvType="Text" DesignTimeRectangle="73, 84, 49, 20" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='toolpath' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='toolpath' role='outline item' automationid='' check:text='toolpath' /&gt;" Guid="df38e2f6-5c6d-489e-9328-b886ba88610b" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4fd60a247e2b7da42984279b97b2e7c6.png" xmlns="">07O9I_VGJfEuKlgHnXipl8A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

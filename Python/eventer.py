@@ -33,16 +33,16 @@ style.configure('TFrame', background='#1E1E1E')
 
 # Define different button styles with different colors
 colors = [
-    ('#2196F3', '#1976D2', '#0D47A1'),  # Blue
-    ('#4CAF50', '#388E3C', '#1B5E20'),  # Green
-    ('#F44336', '#D32F2F', '#B71C1C'),  # Red
-    ('#9C27B0', '#7B1FA2', '#4A148C'),  # Purple
-    ('#FF9800', '#F57C00', '#E65100'),  # Orange
-    ('#795548', '#5D4037', '#3E2723'),  # Brown
-    ('#2196F3', '#1976D2', '#0D47A1'),  # Blue
-    ('#4CAF50', '#388E3C', '#1B5E20'),  # Green
-    ('#F44336', '#D32F2F', '#B71C1C'),  # Red
-    ('#9C27B0', '#7B1FA2', '#4A148C'),  # Purple
+     ('#90A4AE', '#78909C', '#607D8B'),  # Soft Gray-Blue
+    ('#A5D6A7', '#81C784', '#66BB6A'),  # Pastel Green
+    ('#FFCC80', '#FFB74D', '#FFA726'),  # Muted Orange
+    ('#B0BEC5', '#90A4AE', '#78909C'),  # Light Gray
+    ('#80CBC4', '#4DB6AC', '#26A69A'),  # Soft Teal
+    ('#9FA8DA', '#7986CB', '#5C6BC0'),  # Gentle Blue
+    ('#C5CAE9', '#9FA8DA', '#7986CB'),  # Light Lavender
+    ('#BCAAA4', '#A1887F', '#8D6E63'),  # Warm Gray
+    ('#FFE0B2', '#FFCC80', '#FFB74D'),  # Light Orange
+    ('#B39DDB', '#9575CD', '#7E57C2'),  # Soft Purple
     
 ]
 
@@ -70,7 +70,7 @@ main_frame.grid(row=0, column=0, sticky="nsew")
 root.grid_rowconfigure(0, weight=1)
 root.grid_columnconfigure(0, weight=1)
 
-events = ["2D toolpath", "3D toolpath", "2D&3D", "mm", "Inch", "Cutting toolpath","V Layer","Messure","2&3&C"]
+events = ["2D toolpath", "3D toolpath", "2D&3D", "mm", "Inch", "Cutting toolpath","V Layer","Messure","Save","<",">","Load"]
 
 # Arrange buttons in a 2x3 grid
 for i, event in enumerate(events):

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "toolpath",
+  "Type": "Element",
+  "Id": "3ie9n-jCREWwuEUkwKgNKw",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/3ie9n-jCREWwuEUkwKgNKw",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/pAlgQHUwlke_c7ekETFCQg",
+  "Created": "2025-03-10T07:25:50.2285359Z",
+  "Updated": "2025-03-10T07:25:50.2285359Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
