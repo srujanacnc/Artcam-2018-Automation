@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bhLCPPxazU6IglIRWxvexw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="27, 24, 78, 20" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia automationid='59648' cls='SysTreeView32' /&gt;&lt;uia name='*' role='tree item' /&gt;" Guid="4892a9d4-3e3b-4f2c-a72c-e727bfa86414" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="Selector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b13738727966ca8e10eb9deb34c69690.png" xmlns="">0TTnV0ex6GUK6COnmh4213Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

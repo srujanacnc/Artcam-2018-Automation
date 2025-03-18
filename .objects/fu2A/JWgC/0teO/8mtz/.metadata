@@ -1,0 +1,13 @@
+﻿{
+  "Name": "SB0108 68X8.5",
+  "Type": "Element",
+  "Id": "8mtzCruqsEKHnK9pEiqKQA",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/8mtzCruqsEKHnK9pEiqKQA",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/0teO8Yd5rESb0zgD-NvybQ",
+  "Created": "2025-03-18T04:17:15.4674329Z",
+  "Updated": "2025-03-18T04:17:15.4674329Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

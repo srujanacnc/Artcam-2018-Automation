@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2mtGbeUC30uDr9leLo6GAA" Reference="BPn6SeZv5kaUlPUoI-KGnw/eKeJ0jnOj064AHoGVQ6MIg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="29, 584, 45, 12" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia name='X: 2032 mm' role='item' /&gt;&lt;uia role='text' automationid='' /&gt;" Guid="7ffa0f52-d773-4cbe-a796-208bdb191b67" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="16, 569, 43, 13" ElementType="Text" FullSelectorArgument="&lt;uia idx='2' role='table' /&gt;&lt;uia name='w(gArtwork)Artwork' role='item' tableRow='0' /&gt;&lt;uia name='Artwork' role='text' /&gt;" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia name='w(gArtwork)Artwork' role='item' /&gt;&lt;uia name='Artwork' role='text' automationid='' check:fulltext='Artwork' /&gt;" Guid="7e36b46d-ab79-4b34-b4c3-92c004785384" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ab8ad64983f3a06b78006f46753f5896.png" xmlns="">0GZ5gnGiAZE2RADMhQuDYaw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

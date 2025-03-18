@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="zlVipu2jyUKGpNXrNCzztQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="Gclb1jEKE0OJQlkKLpd4PQ" Reference="BPn6SeZv5kaUlPUoI-KGnw/gpVngDi9t0WLUdr3Kp_ijQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="50, 164, 56, 20" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia automationid='59648' cls='SysTreeView32' /&gt;&lt;uia name='Toolpaths' role='tree item' /&gt;" FuzzySelectorArgument="&lt;uia automationid='59648' cls='SysTreeView32' /&gt;&lt;uia name='Toolpaths' role='tree item' automationid='' check:text='Toolpaths' /&gt;" Guid="79d775d5-6257-4bef-b6c6-e19ad1f7a6a2" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="d7332dddad8f24442fbb3432cb2bbd69.png" xmlns="">0ovuwaJubpEmi8FMC5QRs5w</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1697, 391, 56, 20" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia automationid='59648' cls='SysTreeView32' /&gt;&lt;uia name='Toolpaths' role='tree item' /&gt;" FuzzySelectorArgument="&lt;uia automationid='59648' cls='SysTreeView32' /&gt;&lt;uia name='Toolpaths' role='tree item' automationid='' check:text='Toolpaths' /&gt;" Guid="8305fd3c-0740-42dc-9cf4-1a1a5b21b22a" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='HB_12 - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c7c6e431bd38ce39a0497edc03d9bccd.png" xmlns="">0tuT-mLI-LEi0DHGzgTVzKQ</imageRef>
     </TargetAnchorable>
-    <x:String x:Key="ActivityType">Click</x:String>
+    <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>

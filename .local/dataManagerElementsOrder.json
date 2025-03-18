@@ -101,7 +101,9 @@
     {
       "Path": "Start/RectangleCreator.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
+      "VariablesSectionElementsOrder": [
+        "inchMM_text&Sequence_3"
+      ],
       "ArgumentsSectionElementsOrder": [
         "width",
         "hight"
@@ -175,6 +177,32 @@
       "Path": "Rotation/Right_Rotation.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Artcam activities/Toolpath/Save_Toolpaths.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "startNumber&Sequence_2",
+        "two_d&Sequence_2",
+        "three_d&Sequence_2",
+        "cuttingNumber&Sequence_2",
+        "cutting_1_Number&Sequence_2",
+        "cutting2State&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Create/PallakiShape.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "hight&Sequence_2",
+        "width&Sequence_2"
+      ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
