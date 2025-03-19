@@ -243,7 +243,7 @@
       <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1276,3735" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1276,2901" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="path" />
     </Sequence.Variables>
@@ -252,7 +252,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard CloseMode="Never" DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="506,390" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="IfNotOpen" ScopeGuid="b1a2e5b7-0614-4f2f-8cf8-d6ca8dc00e24">
+    <uix:NApplicationCard CloseMode="Never" DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,390" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="IfNotOpen" ScopeGuid="b1a2e5b7-0614-4f2f-8cf8-d6ca8dc00e24">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -271,7 +271,7 @@
         <uix:TargetApp Area="182, 182, 316, 189" FilePath="C:\\Autodesk\\eventer.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPJSURBVFhHzZUJSFRRFIadxWZ0ZgxNbZusMa2mRg210qIoisLAwqTFaqLNtDJsoQUSNNrIFBlaDApT2iOXUrMswgoSWzSssKAyotL2NKJJi9t/R5+8HmccR4L64WPe/d8575z73r13XBhjfxWoL0gEl0EyFSOGNLsDpAb7NFrtu6iYOfVjpptvYbyWihVDms4AuQI9KAiLiHyzaX8pC48/zgZELCiFt5rKEUOazgAdBq+mRc94H5daYCvO6R0UdR7+CipHDGl2FWhdP71fY3TMrIasUxUdxTme/hGFuL+IyhNDml0Bmq5Sqz/lFlxqvV79iEWuPPFHAyoP3zLEBFO5YkjTEdAQuVz++VDuceuUdWfY+KSTbNjMtMdC8dAlOa8QUw9kVL4Y0nQEVJS8cUvz5uxyW8GguZl1fmMX1QgN9AoYx1//DipXCml2BhSu1ek+FV+vaXvdy499V+l8KzHrX3xsnJFWhZiPwOHr55CmPSAj2JqQlNwUv6fY1oCnYXSx95AJd4TZB05dX+Uik79A3GTqGVJI0x7QGfAtOzevhRcLmpf50EUmaxppzrYKDQyP2X4bMU+Bw+/PIU0KyEOhUHyNjVv4Mq/oqq2Yxse/xKO/qWP2HDevARcRm0I9g4I0KaAlppDQxsKKe8xy9iYLMWc/g9dsmp3xWSgOj8+8CeipZ1CQJgV0bWd6xvfYlHxbsZ5+IUVuXvqOlc/xNIziq7+UyrcHaUrhM8K+t1bW1NoKhS3LfQfv/dDora+F4mFLc+DJ+P6Pop5hD9KUAsUFh4a/PVV+11bMMGlVmUyu+BAef0w0+9F89iVUfmeQphRoh3lZwpfUI8LiMxRrfAOqheIhCw/y9dAA/Kn8ziBNKVDOrr2Z1rWWMl6wBVvv+cBxizuOXnfvQfyvN43KdQRpioFMID09y2JNyrrIjDO3VWL8a6T50E9efETs7mqMfwALle8I0hQDpYDWNRs2fd14oJz5GCdfkMmV+P5tszdMTLyp6OHOD58FVL4jSFMMlGAcYWo8fS6/5WhJFXPz1JfJXdUvhQaC5mTcR8xDoKTyHUGaYiA/vgXrHtexqgdPmFzhelep9njS3kCrUqW9gZhVVG5XIE0p0N5BgwMbqh/U/sR1s0rnUxs831LfQ9urAuP9oEvnPgVpSoEU4Iq7RtOIX4YzgB84X0C3Fp4Y0pQC9QElgA8E+JkfQMU7A2lSQEqQB/igFUyg4pyFNO0BhbY3cJq63x1I0x4Q/xT8IpG63x1I0x7/QwPe/7QBDnTkXzegA9Ooe87DXH4DOxFM8l0849IAAAAASUVORK5CYII=" InformativeScreenshot="9ac87549f0df66ff74bda9f9aa4a72be.png" Selector="&lt;wnd app='eventer.exe' cls='TkTopLevel' title='Event Panel' /&gt;" Version="V2" />
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
-    <Assign sap:VirtualizedContainerService.HintSize="506,114" sap2010:WorkflowViewState.IdRef="Assign_1">
+    <Assign sap:VirtualizedContainerService.HintSize="484,114" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">
           <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">path</CSharpReference>
@@ -281,7 +281,7 @@
         <InArgument x:TypeArguments="x:String">C:\Autodesk\\Event.txt</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:WriteTextFile File="{x:Null}" DisplayName="Write Text File" sap:VirtualizedContainerService.HintSize="506,165" sap2010:WorkflowViewState.IdRef="WriteTextFile_2">
+    <ui:WriteTextFile File="{x:Null}" DisplayName="Write Text File" sap:VirtualizedContainerService.HintSize="484,165" sap2010:WorkflowViewState.IdRef="WriteTextFile_2">
       <ui:WriteTextFile.FileName>
         <InArgument x:TypeArguments="x:String">
           <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">path</CSharpValue>
@@ -293,9 +293,9 @@
         </InArgument>
       </ui:WriteTextFile.Text>
     </ui:WriteTextFile>
-    <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="True" DisplayName="While" sap:VirtualizedContainerService.HintSize="506,3043" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+    <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="True" DisplayName="While" sap:VirtualizedContainerService.HintSize="484,2209" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
       <ui:InterruptibleWhile.Body>
-        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="504,2922" sap2010:WorkflowViewState.IdRef="Sequence_2">
+        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,2088" sap2010:WorkflowViewState.IdRef="Sequence_2">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:String" Name="eventText" />
           </Sequence.Variables>
@@ -304,8 +304,8 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="470,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
-          <Assign sap:VirtualizedContainerService.HintSize="470,114" sap2010:WorkflowViewState.IdRef="Assign_2">
+          <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="434,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
+          <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_2">
             <Assign.To>
               <OutArgument x:TypeArguments="x:String">
                 <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">eventText</CSharpReference>
@@ -317,7 +317,7 @@
               </InArgument>
             </Assign.Value>
           </Assign>
-          <ui:ReadTextFile File="{x:Null}" DisplayName="Read Text File" sap:VirtualizedContainerService.HintSize="470,112" sap2010:WorkflowViewState.IdRef="ReadTextFile_1">
+          <ui:ReadTextFile File="{x:Null}" DisplayName="Read Text File" sap:VirtualizedContainerService.HintSize="434,112" sap2010:WorkflowViewState.IdRef="ReadTextFile_1">
             <ui:ReadTextFile.Content>
               <OutArgument x:TypeArguments="x:String">
                 <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">eventText</CSharpReference>
@@ -329,7 +329,7 @@
               </InArgument>
             </ui:ReadTextFile.FileName>
           </ui:ReadTextFile>
-          <If DisplayName="2D" sap:VirtualizedContainerService.HintSize="470,57" sap2010:WorkflowViewState.IdRef="If_1">
+          <If DisplayName="2D" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="If_1">
             <If.Condition>
               <InArgument x:TypeArguments="x:Boolean">
                 <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">eventText == "2D toolpath"</CSharpValue>
@@ -378,7 +378,7 @@
               </Sequence>
             </If.Else>
           </If>
-          <If DisplayName="Cutting" sap:VirtualizedContainerService.HintSize="470,556" sap2010:WorkflowViewState.IdRef="If_5">
+          <If DisplayName="Cutting" sap:VirtualizedContainerService.HintSize="434,556" sap2010:WorkflowViewState.IdRef="If_5">
             <If.Condition>
               <InArgument x:TypeArguments="x:Boolean">
                 <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_15">eventText == "Cutting toolpath"</CSharpValue>
@@ -427,7 +427,7 @@
               </Sequence>
             </If.Else>
           </If>
-          <If DisplayName="2D&amp;3D" sap:VirtualizedContainerService.HintSize="470,57" sap2010:WorkflowViewState.IdRef="If_2">
+          <If DisplayName="2D&amp;3D" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="If_2">
             <If.Condition>
               <InArgument x:TypeArguments="x:Boolean">
                 <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">eventText == "2D&amp;3D"</CSharpValue>
@@ -480,7 +480,7 @@
               </Sequence>
             </If.Else>
           </If>
-          <If DisplayName="MM" sap:VirtualizedContainerService.HintSize="470,57" sap2010:WorkflowViewState.IdRef="If_3">
+          <If DisplayName="MM" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="If_3">
             <If.Condition>
               <InArgument x:TypeArguments="x:Boolean">
                 <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">eventText == "mm"</CSharpValue>
@@ -528,7 +528,7 @@
               </Sequence>
             </If.Else>
           </If>
-          <If DisplayName="Inch" sap:VirtualizedContainerService.HintSize="470,57" sap2010:WorkflowViewState.IdRef="If_4">
+          <If DisplayName="Inch" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="If_4">
             <If.Condition>
               <InArgument x:TypeArguments="x:Boolean">
                 <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_10">eventText == "Inch"</CSharpValue>
@@ -576,7 +576,7 @@
               </Sequence>
             </If.Else>
           </If>
-          <If DisplayName="V Layer" sap:VirtualizedContainerService.HintSize="470,57" sap2010:WorkflowViewState.IdRef="If_7">
+          <If DisplayName="V Layer" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="If_7">
             <If.Condition>
               <InArgument x:TypeArguments="x:Boolean">
                 <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_16">eventText == "V Layer"</CSharpValue>
@@ -624,7 +624,7 @@
               </Sequence>
             </If.Else>
           </If>
-          <If DisplayName="Messure" sap:VirtualizedContainerService.HintSize="470,57" sap2010:WorkflowViewState.IdRef="If_8">
+          <If DisplayName="Messure" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="If_8">
             <If.Condition>
               <InArgument x:TypeArguments="x:Boolean">
                 <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_18">eventText == "Messure"</CSharpValue>
@@ -672,7 +672,7 @@
               </Sequence>
             </If.Else>
           </If>
-          <If DisplayName="2&amp;3&amp;C" sap:VirtualizedContainerService.HintSize="470,1616" sap2010:WorkflowViewState.IdRef="If_9">
+          <If DisplayName="2&amp;3&amp;C" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="If_9">
             <If.Condition>
               <InArgument x:TypeArguments="x:Boolean">
                 <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_20">eventText == "2&amp;3&amp;C"</CSharpValue>
@@ -680,7 +680,7 @@
             </If.Condition>
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
@@ -810,6 +810,150 @@
             </If.Then>
             <If.Else>
               <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,89" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </Sequence>
+            </If.Else>
+          </If>
+          <If DisplayName="Left_Rotation" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="If_10">
+            <If.Condition>
+              <InArgument x:TypeArguments="x:Boolean">
+                <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_26">eventText == "&lt;-"</CSharpValue>
+              </InArgument>
+            </If.Condition>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <If.Then>
+              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,393" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Left_Rotation - Invoke Workflow File (Rotation\Left_Rotation.xaml)" sap:VirtualizedContainerService.HintSize="382,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_14" UnSafe="False" WorkflowFileName="Rotation\Left_Rotation.xaml">
+                  <ui:InvokeWorkflowFile.Arguments>
+                    <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                  </ui:InvokeWorkflowFile.Arguments>
+                </ui:InvokeWorkflowFile>
+                <ui:WriteTextFile File="{x:Null}" DisplayName="Write Text File" sap:VirtualizedContainerService.HintSize="382,156" sap2010:WorkflowViewState.IdRef="WriteTextFile_12">
+                  <ui:WriteTextFile.FileName>
+                    <InArgument x:TypeArguments="x:String">
+                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_25">path</CSharpValue>
+                    </InArgument>
+                  </ui:WriteTextFile.FileName>
+                  <ui:WriteTextFile.Text>
+                    <InArgument x:TypeArguments="x:String">
+                      <Literal x:TypeArguments="x:String" Value="" />
+                    </InArgument>
+                  </ui:WriteTextFile.Text>
+                </ui:WriteTextFile>
+              </Sequence>
+            </If.Then>
+            <If.Else>
+              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_28">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </Sequence>
+            </If.Else>
+          </If>
+          <If DisplayName="Right_Rotation" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="If_11">
+            <If.Condition>
+              <InArgument x:TypeArguments="x:Boolean">
+                <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_27">eventText == "-&gt;"</CSharpValue>
+              </InArgument>
+            </If.Condition>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <If.Then>
+              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,393" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Right_Rotation - Invoke Workflow File (Rotation\Right_Rotation.xaml)" sap:VirtualizedContainerService.HintSize="382,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_15" UnSafe="False" WorkflowFileName="Rotation\Right_Rotation.xaml">
+                  <ui:InvokeWorkflowFile.Arguments>
+                    <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                  </ui:InvokeWorkflowFile.Arguments>
+                </ui:InvokeWorkflowFile>
+                <ui:WriteTextFile File="{x:Null}" DisplayName="Write Text File" sap:VirtualizedContainerService.HintSize="382,156" sap2010:WorkflowViewState.IdRef="WriteTextFile_13">
+                  <ui:WriteTextFile.FileName>
+                    <InArgument x:TypeArguments="x:String">
+                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_28">path</CSharpValue>
+                    </InArgument>
+                  </ui:WriteTextFile.FileName>
+                  <ui:WriteTextFile.Text>
+                    <InArgument x:TypeArguments="x:String">
+                      <Literal x:TypeArguments="x:String" Value="" />
+                    </InArgument>
+                  </ui:WriteTextFile.Text>
+                </ui:WriteTextFile>
+              </Sequence>
+            </If.Then>
+            <If.Else>
+              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </Sequence>
+            </If.Else>
+          </If>
+          <If DisplayName="Save Toolpaths" sap:VirtualizedContainerService.HintSize="434,611" sap2010:WorkflowViewState.IdRef="If_12">
+            <If.Condition>
+              <InArgument x:TypeArguments="x:Boolean">
+                <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_29">eventText == "Load"</CSharpValue>
+              </InArgument>
+            </If.Condition>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <If.Then>
+              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,393" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Save_Toolpaths - Invoke Workflow File (Artcam activities\Toolpath\Save_Toolpaths.xaml)" sap:VirtualizedContainerService.HintSize="382,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_16" UnSafe="False" WorkflowFileName="Artcam activities\Toolpath\Save_Toolpaths.xaml">
+                  <ui:InvokeWorkflowFile.Arguments>
+                    <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                  </ui:InvokeWorkflowFile.Arguments>
+                </ui:InvokeWorkflowFile>
+                <ui:WriteTextFile File="{x:Null}" DisplayName="Write Text File" sap:VirtualizedContainerService.HintSize="382,156" sap2010:WorkflowViewState.IdRef="WriteTextFile_14">
+                  <ui:WriteTextFile.FileName>
+                    <InArgument x:TypeArguments="x:String">
+                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_30">path</CSharpValue>
+                    </InArgument>
+                  </ui:WriteTextFile.FileName>
+                  <ui:WriteTextFile.Text>
+                    <InArgument x:TypeArguments="x:String">
+                      <Literal x:TypeArguments="x:String" Value="" />
+                    </InArgument>
+                  </ui:WriteTextFile.Text>
+                </ui:WriteTextFile>
+              </Sequence>
+            </If.Then>
+            <If.Else>
+              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_32">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>

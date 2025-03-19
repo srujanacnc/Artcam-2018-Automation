@@ -1,0 +1,13 @@
+﻿{
+  "Name": "SB0108 68X8.5 - Autodesk ArtCAM Premium 2018",
+  "Type": "Screen",
+  "Id": "68uugWIrKE6jvfIVzwVphw",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/68uugWIrKE6jvfIVzwVphw",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/JWgCNBK9VEG1dFMpqSp7ig",
+  "Created": "2025-03-18T02:53:53.0767967Z",
+  "Updated": "2025-03-18T02:53:53.0767967Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

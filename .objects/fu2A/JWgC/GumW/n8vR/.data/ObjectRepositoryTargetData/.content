@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="M9zqfEJxlUq0JrpEYZTvYQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="454, 65, 40, 40" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;uia automationid='' role='button' /&gt;" Guid="9d6eef74-399f-4350-aadc-22747c50f1d0" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='FB0033 70x8 - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="433, 33, 57, 28" FullSelectorArgument="&lt;uia name='Window' role='menu item' /&gt;" FuzzySelectorArgument="&lt;uia name='Window' role='menu item' automationid='' check:fulltext='Window' /&gt;" Guid="c9874340-1509-4f45-b36d-7404924138b1" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ded91d841e5d5f3cef62e4b65f174e1b.png" xmlns="">0iGiYaTtqbUerhjDT0aOb7w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
