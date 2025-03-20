@@ -80,7 +80,7 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Left_Rotation" sap:VirtualizedContainerService.HintSize="1276,1187" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Left_Rotation" sap:VirtualizedContainerService.HintSize="1250,1187" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -100,13 +100,7 @@
             </sap:WorkflowViewStateService.ViewState>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''push button''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Right" ScopeIdentifier="b6d2456b-05df-4166-a561-205c66e4b0ec" Version="V4">
               <uix:NClick.Target>
-                <uix:TargetAnchorable DesignTimeRectangle="454, 65, 40, 40" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;uia automationid='' role='button' /&gt;" Guid="652ab8ed-8872-4145-9f53-44d97bba9e35" InformativeScreenshot="c5121ba53275c310cf99651e9bb3445e.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='FB0033 70x8 - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                      <uix:Target DesignTimeRectangle="433, 33, 57, 28" FullSelectorArgument="&lt;uia name='Window' role='menu item' /&gt;" FuzzySelectorArgument="&lt;uia name='Window' role='menu item' automationid='' check:fulltext='Window' /&gt;" Guid="15023873-be1e-43eb-93f6-671acb2f6ebd" SearchSteps="Selector, FuzzySelector" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
+                <uix:TargetAnchorable DesignTimeRectangle="467, 67, 42, 43" DesignTimeScaleFactor="1" Guid="3c67d9d9-98c0-43b0-a3a0-697bec5889ed" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACoAAAArCAYAAAAOnxr+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGnSURBVFhH7dVPSwJBGMfx3tOKJ/VQlBfpH4TRhggbQiKyEIRXW4UgEsEwKEnC8CV49iIkiB2D8AUoiCDo+RezMGG7w47BbLPRHD7sYZ71+SIObmiahr9AhYqmQkVToaIJDd2L78Ayz7myqWPm+15+HJpIJNBoNNDv9zEej2307CC+hdu8wWWeHH77zHWsHRoKhVCv1zGfzzEajdBut1EqlVAsFr9mAhHaarUwm83ssHA4zJyRHprJZLBYLJDL5ZjnlPTQTqeDbrfLPFslLdQwDPtJLoxlWUgmk4jFYq45SkpoOp3GcrlErVazn+VyGZPJBM1mkzlPSPtGK5WKHUlMp1P0ej1Eo1HmLCH1N1qtVu3Q4XCISCTCnKGkX6ZCocCNJPa3N3F1pnNlj3aZ73txhaZOdVyYpq/IDudeHlfoy9MjPt4GviI7nHt5XKHPD/d4H7z6iuxw7uVRoV5UqGgqVLT/FXpp5nF3c+0rssO5l8cVKouue/+tBiKURAY+lEYGOnQ1MrChzshAhrIiCdYs9euhrECKNU9Jv0zrUqGiqVDRVKhYGj4BPdGm7dy0YhIAAAAASUVORK5CYII=" InformativeScreenshot="f052231aee027f8a8a3d174f9aef384a.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='(Untitled) - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive" />
               </uix:NClick.Target>
               <uix:NClick.VerifyOptions>
                 <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
@@ -121,7 +115,7 @@
             </uix:NClick>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''push button''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b6d2456b-05df-4166-a561-205c66e4b0ec" Version="V4">
               <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="d1d16fc6-2def-442a-8a28-9e41ec7813f9" CvElementArea="6, 87, 32, 29" CvType="Icon" DesignTimeRectangle="2, 83, 40, 40" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl idx='21' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='' role='push button' /&gt;" Guid="766a9406-7189-4e89-8d0e-b1e7d6f1bf2e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGYSURBVFhH7dTPS8JgHMfx/ifFmx6K8iD0C8JooYftkocxCMKrTWEQ8+IgaBAmgX+A/4EHSQg7BuFZPIgg6PkTz6CY9M09ld9R9BxeDPZ8n33fp21omoZEIvEniFYVzEkFc1PB3FQwNxXMTTq4VDiGbZ1F2svukPfXRTrYOjmEa+qRDrJb73fG43Gg3+/D933kcrmlb34Ha3ClUkG1WkW73cZwOMRsNkOj0UAymVz69lewBoelUinYto3pdIpWq0XOyIgt+I1pmpjP5zAMgzyPEnuw0O120el0yLMosQZnMhnk83nUajWMRqPgna7rH+ZWiTW42WwGfw3HcbBYLOB5XvAsFovkPCXW4HQ6jV6vh8lkEoQKruuSs5+JNVgQ0YPBIIit1+vkzCrSwaWjXVwaWqT97U3yfpiILpfL5FkU6eDCqYZzy2IldlC7w6SD7299vDw9shI7qN1h0sF3N9d4fnxgJXZQu8NU8E+oYGrJOqlgask6/e/gC8uEd+WwEjuo3WHSwb+FCuamgrmpYG4qmJsK5qZpGl4BsNySSSwYersAAAAASUVORK5CYII=" InformativeScreenshot="99e94741510da89b82541938eeea7e9c.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                <uix:TargetAnchorable CVScreenId="d1d16fc6-2def-442a-8a28-9e41ec7813f9" DesignTimeRectangle="2, 83, 40, 40" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl idx='21' role='push button' /&gt;" Guid="766a9406-7189-4e89-8d0e-b1e7d6f1bf2e" ImageBase64="" InformativeScreenshot="640c01b4c6127d9a336ce0dfd82e1ae8.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' idx='*' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive" />
               </uix:NClick.Target>
               <uix:NClick.VerifyOptions>
                 <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">

@@ -36,6 +36,8 @@
       <x:String>System.Reflection</x:String>
       <x:String>System.ComponentModel</x:String>
       <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -88,27 +90,27 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="allBulbsOffVector" sap:VirtualizedContainerService.HintSize="1276,937" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="allBulbsOffVector" sap:VirtualizedContainerService.HintSize="1250,891" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="IE cutting" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1022,914" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" ScopeGuid="402e9ae8-8947-4c3c-84e1-971a05dbee5b" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="IE cutting" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1022,868" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" ScopeGuid="402e9ae8-8947-4c3c-84e1-971a05dbee5b" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="988,624" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="988,578" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NCheckState DisplayName="Check App State 'Vectors'" sap:VirtualizedContainerService.HintSize="954,562" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="402e9ae8-8947-4c3c-84e1-971a05dbee5b" Timeout="1" Version="V4">
+            <uix:NCheckState DisplayName="Check App State 'Vectors'" sap:VirtualizedContainerService.HintSize="954,518" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="402e9ae8-8947-4c3c-84e1-971a05dbee5b" Timeout="1" Version="V4">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,280" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,278" sap2010:WorkflowViewState.IdRef="Sequence_5">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -116,10 +118,10 @@
                   </sap:WorkflowViewStateService.ViewState>
                   <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Fold" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="402e9ae8-8947-4c3c-84e1-971a05dbee5b" Version="V4">
                     <uix:NClick.Target>
-                      <uix:TargetAnchorable DesignTimeRectangle="11, 43, 15, 18" DesignTimeScaleFactor="1" Guid="9fa54930-6b6c-4061-abf1-bf640f6bccf3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAA8AAAASCAYAAACEnoQPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABbSURBVDhPYzA2Nv4PwiYmJmCMzIexkcVMTU3hfLhmcvCoZhIxVs0fP37EEMOGcWomxgC8NhMygKCz8RlAlJ9xGUA7m/FpBGGcmglpBGGi/IwLY9VMLKZAs/F/AOTl0hL6y5kCAAAAAElFTkSuQmCC" InformativeScreenshot="93fcc54842888e890376080f25c2c459.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
+                      <uix:TargetAnchorable DesignTimeRectangle="1654, 193, 20, 17" DesignTimeScaleFactor="1" Guid="38c18692-7144-4787-adc5-61d06ee62b8a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABJSURBVDhPYzA2Nv5PTTxqIHb88eNHrOLYMNEGEmsoSS4kxlCSvUzIULLCEJ+hA+tCQoaBMNEGEmMYCJMVhvgwUQaSgkecgcb/Ab0qQZ8G+EiAAAAAAElFTkSuQmCC" InformativeScreenshot="ed70a17da28d4eeadb893b01d8f2f5f7.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='(Untitled) - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
                         <uix:TargetAnchorable.Anchors>
                           <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                            <uix:Target DesignTimeRectangle="50, 44, 43, 20" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' automationid='' check:text='Vectors' /&gt;" Guid="5ba13445-392c-4165-913c-2d7508234d51" SearchSteps="Selector, FuzzySelector" />
+                            <uix:Target DesignTimeRectangle="1697, 191, 43, 20" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' automationid='' check:text='Vectors' /&gt;" Guid="dc099644-2a99-4337-a1b9-4b2be35a05ed" SearchSteps="Selector, FuzzySelector" />
                           </scg:List>
                         </uix:TargetAnchorable.Anchors>
                       </uix:TargetAnchorable>
@@ -138,7 +140,7 @@
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,91" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,91" sap2010:WorkflowViewState.IdRef="Sequence_6">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -147,10 +149,10 @@
                 </Sequence>
               </uix:NCheckState.IfNotExists>
               <uix:NCheckState.Target>
-                <uix:TargetAnchorable DesignTimeRectangle="7, 46, 20, 19" DesignTimeScaleFactor="1" Guid="d4c9cc66-e86c-419f-9643-c9baf7f585d4" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABMSURBVDhP7dAxDgBABETRvdPc/1BOYKMXhpVso/iN4gUHgE62oJ+IuHMvGmTR0oYMWj45Q1s/jNC/G2aYRYMMZrV+GEWBlRZ8bxiEXkNagV9O4kg+AAAAAElFTkSuQmCC" InformativeScreenshot="ff7911dc487f94d1245deed3463f9bf3.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
+                <uix:TargetAnchorable Accuracy="0.9" ContentHash="By6Qx98b_kKwPFt74ZL4Xw" DesignTimeRectangle="1655, 192, 18, 18" DesignTimeScaleFactor="1" Guid="aeba0d98-2592-451d-b8f0-c9d7232f08b5" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABLSURBVDhPYzA2Nv5PDTxqEGFM0KCPHz9iFUfHRBlEjGFEu4iQYSR5DZ9hJIcRLsPo7yJ8hoAwUQYRMgSESQ4jXJigQcTiYWuQ8X8AMrgoH3fHNCcAAAAASUVORK5CYII=" InformativeScreenshot="0b1feee26c114e7c71a58a1a8f5fb8de.png" Reference="BPn6SeZv5kaUlPUoI-KGnw/XxAjo-fDnUu_sz6JcMbyBw" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='(Untitled) - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                      <uix:Target DesignTimeRectangle="50, 44, 43, 20" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' automationid='' check:text='Vectors' /&gt;" Guid="788ebd3d-cb97-4afe-9bf7-364439c50c45" SearchSteps="Selector, FuzzySelector" />
+                      <uix:Target DesignTimeRectangle="1697, 191, 43, 20" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' automationid='' check:text='Vectors' /&gt;" Guid="61a12b5b-5926-4588-8350-5e269ceb5a23" SearchSteps="Selector, FuzzySelector" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>

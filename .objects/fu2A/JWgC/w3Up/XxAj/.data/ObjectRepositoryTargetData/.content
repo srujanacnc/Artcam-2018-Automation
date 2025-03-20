@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="By6Qx98b_kKwPFt74ZL4Xw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" Accuracy="0.9" DesignTimeRectangle="1655, 192, 18, 18" DesignTimeScaleFactor="1" Guid="aeba0d98-2592-451d-b8f0-c9d7232f08b5" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABLSURBVDhPYzA2Nv5PDTxqEGFM0KCPHz9iFUfHRBlEjGFEu4iQYSR5DZ9hJIcRLsPo7yJ8hoAwUQYRMgSESQ4jXJigQcTiYWuQ8X8AMrgoH3fHNCcAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='(Untitled) - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1697, 191, 43, 20" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' automationid='' check:text='Vectors' /&gt;" Guid="61a12b5b-5926-4588-8350-5e269ceb5a23" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0b1feee26c114e7c71a58a1a8f5fb8de.png" xmlns="">0OQV-ugOXIUWrTNOsItQYwQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

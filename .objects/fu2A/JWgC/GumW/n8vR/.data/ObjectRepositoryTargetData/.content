@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="M9zqfEJxlUq0JrpEYZTvYQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="meibRBlHokyADffXt4OuUg" Reference="BPn6SeZv5kaUlPUoI-KGnw/n8vRrrph1kWRW-4PJCTKJQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="454, 65, 40, 40" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;uia automationid='' role='button' /&gt;" Guid="9d6eef74-399f-4350-aadc-22747c50f1d0" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='FB0033 70x8 - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
-      <TargetAnchorable.Anchors>
-        <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target DesignTimeRectangle="433, 33, 57, 28" FullSelectorArgument="&lt;uia name='Window' role='menu item' /&gt;" FuzzySelectorArgument="&lt;uia name='Window' role='menu item' automationid='' check:fulltext='Window' /&gt;" Guid="c9874340-1509-4f45-b36d-7404924138b1" SearchSteps="Selector, FuzzySelector" />
-        </scg:List>
-      </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="ded91d841e5d5f3cef62e4b65f174e1b.png" xmlns="">0iGiYaTtqbUerhjDT0aOb7w</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="469, 71, 37, 37" DesignTimeScaleFactor="1" Guid="0181b39b-d791-4030-9e23-efa8e44068df" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACUAAAAlCAYAAADFniADAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGaSURBVFhH7dXPS8JgHMfx/qeJJ/VQlBfpF4TRQoSFkIgMgvBqUwgiEQyDkiQM/wTPXgQHYscg/AMURBD0/Iln8IzH+azt0J6N2OHNDs93fl+MB9yRJAlBK0S57U9QR8kDaOq1Y/nMOfd9a65RqVQKrVYLuq5jOp0a0bOT5B4ei4pj6sXpxm/a5YiKRCJoNptYLpeYTCbodruoVCool8vmjHBUp9PBYrEwENFolDsjFJXL5bBarVAoFLjnNKGoXq+Hfr/PPWMTglIUxXiSy6xpGtLpNBKJxNYczXNUNpvFer1Go9EwntVqFbPZDO12e2OOTciXqtVqBog0n88xGAwQj8e35mjC7lS9XjdQ4/EYsViMO0MTetFLpZIjiHS8v4u7K9mx/Nkh931rJipzKeNGVT2N7GCX22WiPt5e8f058jSyg11ul4l6f3nG12joaWQHu9yuEBWi3Bai3PY/ULdqEU8P955GdrDL7TJRfiXL2389vqIIKFAoCgoMigUFAmUF+Y7igUjWOWEoHoZmnfXtov9WiHJbiHKXhB94Ne5I63qRgwAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='(Untitled) - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="c58d62f8d7f82eb1fbdd4798bef46b18.png" xmlns="">0b6ri-f8gNE6qkHD2Zuam-g</imageRef>
     </TargetAnchorable>
-    <x:String x:Key="ActivityType">Click</x:String>
+    <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>
