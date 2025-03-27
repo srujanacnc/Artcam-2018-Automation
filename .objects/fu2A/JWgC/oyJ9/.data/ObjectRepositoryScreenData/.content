@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="_J40IYt1TECncDbJ_F2njw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" Selector="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='Test - Autodesk ArtCAM Premium 2018' /&gt;" Url="[Nothing]" />
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

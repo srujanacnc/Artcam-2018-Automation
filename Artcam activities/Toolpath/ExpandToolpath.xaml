@@ -84,15 +84,15 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ExpandToolpath" sap:VirtualizedContainerService.HintSize="1267,778.04" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ExpandToolpath" sap:VirtualizedContainerService.HintSize="1276,937" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NCheckState DisplayName="Expand toolpath" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="NCheckState_1" Timeout="2" Version="V4">
+    <uix:NCheckState DisplayName="Expand toolpath" sap:VirtualizedContainerService.HintSize="1022,914" sap2010:WorkflowViewState.IdRef="NCheckState_1" Timeout="2" Version="V4">
       <uix:NCheckState.IfExists>
-        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="518,632" sap2010:WorkflowViewState.IdRef="Sequence_3">
+        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="518,634" sap2010:WorkflowViewState.IdRef="Sequence_3">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -112,10 +112,10 @@
                   </sap:WorkflowViewStateService.ViewState>
                   <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Toolpaths'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b8dc3149-7ff4-4138-bc73-814b00d3b3dc" Version="V4">
                     <uix:NClick.Target>
-                      <uix:TargetAnchorable DesignTimeRectangle="1657, 471, 18, 18" DesignTimeScaleFactor="1" Guid="5888d875-fe78-4b3a-828f-d9e75d741b73" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABhSURBVDhPzdK7DcAwCEXR7MRn/5WYgIjCnQUv8lPk4jYujgz2IyJ5mpklBVJVDlTdBdFGa6GI2J7vGiEUa59/IQgGjzZh7o7vqMNgaLoRNNqEVOOyEaT65x99iQZVJEjyBcWRKF7ruiSyAAAAAElFTkSuQmCC" InformativeScreenshot="7fa8ed9a57e0e185765c693372148be6.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='(Untitled) - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
+                      <uix:TargetAnchorable DesignTimeRectangle="8, 243, 20, 22" DesignTimeScaleFactor="1" Guid="a707e139-b446-4eb1-88bc-a2040127cd8a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABoSURBVDhPzdUxCgAxCATA+9Oq//+SL/CwuC6cKwix2CbF4CZCHgAxFVWN3aCIzIKZ3eB4ZQp09+P5KTTIotTafBiDtitXqJn17/APbYPVhK3KFZahH4XBMnf2sJNxMLMbHK88/gUAiBcI0+FN8k6vUAAAAABJRU5ErkJggg==" InformativeScreenshot="83d8baa1dc2eb177a89702662cc10a53.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
                         <uix:TargetAnchorable.Anchors>
-                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                            <uix:Target DesignTimeRectangle="1697, 471, 56, 20" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Toolpaths' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Toolpaths' role='outline item' automationid='' check:text='Toolpaths' /&gt;" Guid="5b2e51e1-e82b-4f5b-b530-2136696bf792" SearchSteps="Selector, FuzzySelector" />
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target DesignTimeRectangle="50, 244, 56, 20" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Toolpaths' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Toolpaths' role='outline item' automationid='' check:text='Toolpaths' /&gt;" Guid="a773da40-f7f9-462e-8144-f09cae58b2ea" SearchSteps="Selector, FuzzySelector" />
                           </scg:List>
                         </uix:TargetAnchorable.Anchors>
                       </uix:TargetAnchorable>
@@ -150,17 +150,17 @@
         </Sequence>
       </uix:NCheckState.IfNotExists>
       <uix:NCheckState.Target>
-        <uix:TargetAnchorable DesignTimeRectangle="1655, 470, 19, 20" DesignTimeScaleFactor="1" Guid="f3691cff-59e5-41d3-9a78-55f11af73ee4" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABMSURBVDhPYzA2Nv5PLTxqGOl4CBv28eNHrOLYMFGGEWsg0S4jxkCSvEnIQJLDDJ+BA+MyQgaBMFGGEWMQCJMcZvgwQcNIwSPCMOP/AHFlgV9C3l01AAAAAElFTkSuQmCC" InformativeScreenshot="d37aced43a241641fe4c52689b9cf61b.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='(Untitled) - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
+        <uix:TargetAnchorable DesignTimeRectangle="9, 243, 20, 20" DesignTimeScaleFactor="1" Guid="c094acd9-8897-456a-bcaf-b8e98e3e3299" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB3SURBVDhPzZMxDgAhCATvT4j+/0m8gMvGxoIIJFtYTIwWk92An4g4A1X1MYa/K4QMUpoQUBMCakJ65S2cd6GZhe8REK61cmFVirol4XneQMI5G5UzKWQtYXQ/aQuzhK3KmQyUh1KRgfZQMvZiv/z1AF2IlOTK6j/zUaIV4lsTawAAAABJRU5ErkJggg==" InformativeScreenshot="fe824135cfc9cce405653197ef23a089.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
           <uix:TargetAnchorable.Anchors>
-            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-              <uix:Target DesignTimeRectangle="1697, 471, 56, 20" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Toolpaths' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Toolpaths' role='outline item' automationid='' check:text='Toolpaths' /&gt;" Guid="dc99efc4-96ca-410b-8776-ed43af1e334b" SearchSteps="Selector, FuzzySelector" />
+            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+              <uix:Target DesignTimeRectangle="50, 244, 56, 20" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Toolpaths' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Toolpaths' role='outline item' automationid='' check:text='Toolpaths' /&gt;" Guid="f644b372-85fc-4ba0-97e1-1c76241050c3" SearchSteps="Selector, FuzzySelector" />
             </scg:List>
           </uix:TargetAnchorable.Anchors>
         </uix:TargetAnchorable>
       </uix:NCheckState.Target>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>

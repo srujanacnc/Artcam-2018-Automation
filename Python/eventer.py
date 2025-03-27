@@ -85,7 +85,7 @@ main_frame.grid(row=0, column=0, sticky="nsew")
 root.grid_rowconfigure(0, weight=1)
 root.grid_columnconfigure(0, weight=1)
 
-events = ["2D", "3D", "2D&3D", "mm", "Inch", "Cutting","V Layer","Messure","Save","<",">","Load",]
+events = ["2D", "3D", "2D&3D", "mm", "Inch", "Cutting","V Layer","Messure","T-S","<",">","Load",]
 
 # Arrange buttons in a 2x3 grid
 for i, event in enumerate(events):

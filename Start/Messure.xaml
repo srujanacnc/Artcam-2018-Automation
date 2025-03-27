@@ -95,7 +95,7 @@
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="tester" sap:VirtualizedContainerService.HintSize="1276,4303" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="tester" sap:VirtualizedContainerService.HintSize="1276,4480" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="width" />
       <Variable x:TypeArguments="x:String" Name="hight" />
@@ -138,6 +138,11 @@
         <InArgument x:TypeArguments="x:Int32">0</InArgument>
       </Assign.Value>
     </Assign>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="INCH - Invoke Workflow File (Artcam activities\\Size\\INCH.xaml)" sap:VirtualizedContainerService.HintSize="522,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Artcam activities\\Size\\INCH.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
     <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="522,1770" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
       <ui:InterruptibleWhile.Body>
         <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="520,1640" sap2010:WorkflowViewState.IdRef="Sequence_2">
@@ -374,7 +379,7 @@
               <uix:NCheck.Target>
                 <uix:TargetAnchorable ContentHash="2I4bXExAXkm6brUwfCDkkw" DesignTimeRectangle="28, 31, 13, 21" DesignTimeScaleFactor="1" ElementType="CheckBox" FullSelectorArgument="&lt;uia automationid='UseFixedNudgeDistanceCheckBox' name='Use fixed nudge distance' role='check box' /&gt;" FuzzySelectorArgument="&lt;uia automationid='UseFixedNudgeDistanceCheckBox' name='Use fixed nudge distance' role='check box' /&gt;" Guid="50a414f4-dec0-4d22-bd86-9d224372d8a2" InformativeScreenshot="73db54bcc9e3e7f934c30cd33e4872b1.png" Reference="BPn6SeZv5kaUlPUoI-KGnw/z0mH6XFGoke-qw5ZTDvZ8Q" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='#32770' title='Nudge Distance' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target DesignTimeRectangle="46, 31, 121, 21" ElementType="Text" FullSelectorArgument="&lt;uia idx='2' name='Use fixed nudge distance' role='text' /&gt;" FuzzySelectorArgument="&lt;uia automationid='' name='Use fixed nudge distance' role='text' check:fulltext='Use fixed nudge distance' /&gt;" Guid="522cb534-fe2a-471a-83ff-6dcb9bc2629c" SearchSteps="Selector, FuzzySelector" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>

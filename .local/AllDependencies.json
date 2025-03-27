@@ -30,6 +30,26 @@
           "lib/netstandard2.0/DynamicExpresso.Core.dll": {}
         }
       },
+      "GroqJohnX/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "UiPath.System.Activities": "24.10.7"
+        },
+        "compile": {
+          "lib/net8.0-windows7.0/_._": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/GroqJohnX.dll": {},
+          "lib/net8.0-windows7.0/GroqJohnX_Expressions_47022312.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Markdig.Signed/0.31.0": {
         "type": "package",
         "compile": {
@@ -5013,6 +5033,26 @@
           "lib/netstandard2.0/DynamicExpresso.Core.dll": {}
         }
       },
+      "GroqJohnX/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "UiPath.System.Activities": "24.10.7"
+        },
+        "compile": {
+          "lib/net8.0-windows7.0/_._": {}
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/GroqJohnX.dll": {},
+          "lib/net8.0-windows7.0/GroqJohnX_Expressions_47022312.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Markdig.Signed/0.31.0": {
         "type": "package",
         "compile": {
@@ -9869,6 +9909,30 @@
         "dynamicexpresso.core.2.12.0.nupkg.sha512",
         "dynamicexpresso.core.nuspec",
         "lib/netstandard2.0/DynamicExpresso.Core.dll"
+      ]
+    },
+    "GroqJohnX/1.0.6": {
+      "sha512": "HGD0foPpuqYhHs6n/RFDQVRrq5LV8ZZ2E0PDQwr8/cK/1r1rD+XW+SGk3JkyqpaIxhgaSgO02HpwomQLKPSAJg==",
+      "type": "package",
+      "path": "groqjohnx/1.0.6",
+      "files": [
+        ".nupkg.metadata",
+        "content/.project/PackageBindingsMetadata.json",
+        "content/.project/design.json",
+        "content/.settings/Release/settings-9e9290da.json",
+        "content/GroqAI.xaml",
+        "content/GroqAI.xaml.json",
+        "content/GroqJohnX.1.0.4.nupkg",
+        "content/GroqJohnX.1.0.5.nupkg",
+        "content/bindings.json",
+        "content/bindings_v2.json",
+        "content/project.json",
+        "contentFiles/any/any/.objects/.metadata",
+        "contentFiles/any/any/.objects/.type",
+        "groqjohnx.1.0.6.nupkg.sha512",
+        "groqjohnx.nuspec",
+        "lib/net8.0-windows7.0/GroqJohnX.dll",
+        "lib/net8.0-windows7.0/GroqJohnX_Expressions_47022312.dll"
       ]
     },
     "Markdig.Signed/0.31.0": {
@@ -19579,26 +19643,32 @@
   "projectFileDependencyGroups": {
     "": [],
     "net8.0-windows7.0": [
+      "GroqJohnX >= 1.0.6 <= 1.0.6",
       "UiPath.System.Activities >= 25.2.1 <= 25.2.1",
       "UiPath.UIAutomation.Activities >= 24.12.4-preview <= 24.12.4-preview",
       "UiPath.VMware.Activities >= 2.1.0 <= 2.1.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sujana CNC\\.nuget\\packages\\": {}
+    "C:\\Users\\JohnX\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "Artcam 2018 Automation",
       "projectName": "Artcam 2018 Automation",
-      "projectPath": "C:\\Users\\Sujana CNC\\Documents\\UiPath\\Artcam 2018 Automation\\.local",
-      "packagesPath": "C:\\Users\\Sujana CNC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sujana CNC\\Documents\\UiPath\\Artcam 2018 Automation\\.local",
+      "projectPath": "C:\\Users\\JohnX\\Documents\\UiPath\\Artcam-2018-Automation\\.local",
+      "packagesPath": "C:\\Users\\JohnX\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JohnX\\Documents\\UiPath\\Artcam-2018-Automation\\.local",
       "UsingMicrosoftNETSdk": false
     },
     "frameworks": {
       "net8.0-windows7.0": {
         "dependencies": {
+          "GroqJohnX": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.6, 1.0.6]"
+          },
           "UiPath.System.Activities": {
             "include": "Runtime",
             "target": "Package",
@@ -19615,7 +19685,7 @@
             "version": "[2.1.0, 2.1.0]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Sujana CNC\\AppData\\Local\\Programs\\UiPath\\Studio\\PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\JohnX\\AppData\\Local\\Programs\\UiPath\\Studio\\PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

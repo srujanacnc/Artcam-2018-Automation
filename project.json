@@ -4,6 +4,7 @@
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
+    "GroqJohnX": "[1.0.6]",
     "UiPath.System.Activities": "25.2.1",
     "UiPath.UIAutomation.Activities": "[24.12.4-preview]",
     "UiPath.VMware.Activities": "2.1.0"
@@ -12,7 +13,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "25.0.157.0",
-  "projectVersion": "1.0.4",
+  "projectVersion": "1.0.5",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,

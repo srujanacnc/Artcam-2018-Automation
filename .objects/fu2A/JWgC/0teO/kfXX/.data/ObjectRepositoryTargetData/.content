@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AABDZL20G0amqB1N-JIJCQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="257, 81, 18, 21" DesignTimeScaleFactor="1" Guid="e26ea2ea-d3f2-4a8e-8a51-7cbea5dad644" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABIAAAAVCAYAAABLy77vAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIbSURBVDhPrZRRSxtREIXzn5LN7sYEbWJEY1MLpbQFrWmwJiohhVJpHywIUirVQpLWiI1QK6UU/I/jfnMz181i3/pwsmfPnDl37k1ucvl8XgqFgoRhKMViUREEgQTJc36uJB9az+Sos6GAo1HDY356c4Qg8jSYCQONC5WyAm4LZntyJjCZTWfwZp5Tng2wvn8GoVstCByyOvBBVkybgI0fl0pSq9cV8HTNQG/msO8OPI5jebW9I8fDsYwurxXw1uuu1sxHjx42QaTyEobRlEey//FQhpMraW13ZbmxqoCjvTs4nPES6LfGi46ZBLPqIGlYWl6ZOTc4mi6QePBa7zTIjQmPokiOR2Npd3ZnQlyQC3NbPlcvug+y3wb8QbUmw8tf0njY1NVsRWDv1PDg9UEU0kEL1apuq9F8JMVkUrQ00Faba+rBqxpBRgiEE/p5cCZbO3u6DdMBHI0aHrym5wgxIGJsd3fldDyRcqXiw60JjVr6DHWibBDfBOaTsx/S6fXVbEHwTu+N1nSRdJAR2wJm8Hz9pR5orb7kNTg/zBfrm16jR7fGB6v5iaaIoliOvg6l93bfN8HRqKW9MxNlg8BGe0u+fL+QUnLHABwt6/NBTJUO4p0JuBbffv6Wx0+eKuBo1Owo7g3i6ULcWVVrizK5/iNXf28UcDS3Vddnvf7S8mIX0VaaL8/Jp35y7973FXA0q+O18/1P/9mh3AJAd6OfOkBCegAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="73, 84, 15, 20" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='tp' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='tp' role='outline item' automationid='' check:text='tp' /&gt;" Guid="50d21e8c-cd85-4b3e-96b4-bd65551a7eda" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="90e5891ac8cad7032274f62a04c6c39c.png" xmlns="">0ULu3nHNdwUGTobdAKp9xcA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

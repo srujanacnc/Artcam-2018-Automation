@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Vector+",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "q4mNuagTAUecjtPI-G6VyA",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/q4mNuagTAUecjtPI-G6VyA",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/0teO8Yd5rESb0zgD-NvybQ",
+  "Created": "2025-03-21T07:22:40.2351979Z",
+  "Updated": "2025-03-21T07:23:02.9475574Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

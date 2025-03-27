@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BJbX-bL2aU6--kmWpgc83Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="233, 38, 23, 27" DesignTimeScaleFactor="1" Guid="4a64e3ad-5257-47c5-bcba-b8050f9337e5" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABcAAAAbCAYAAACX6BTbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGGSURBVEhL7ZTRkYMwEEOvJwdDB0yAHnIFUwQMJVCAb54dmcU4n/xk7kNjsSvJix3y45wLd+E/vIovCG+aJjwej9yAA+rqfeLA+qjDc7iK1gi8b9/wpuZz3WptxilcG7TtOUwr9edziIDbnjajruBLuELatoscodD3fZjnOQJue8nX5c0u4RJJYMPpD8MQlmWJgMsjn/XKU4Tzev7dPJ/fOI45HH54mDRtksLlL8LTeaemoGmmacrhcE1aau2553DENtzWeS4np5amPoZTuOqXM++6Ll4Y50oIU8Jfr9+wbVsEnBo9NHA8eKvHotdHyC9iXdc8KSB03/cIuO2hxYOXDLIq4f6e8HQs/p5jYcdbL5SmwgWeETOlwuHUalrVLuGlgWcJy8mtR3oNIk81nBXoy6PPuSocLo++ZOu9hAMJyj8uelwYvwgAp6Y+2tp9ncJpSKQptFJnYqBLsxpAvRquCViFw5g25LlWKz2sp3Bb1GalgdVyq7E+evCP4YLEWmvc+tRzzoU/fiZcN3lkBu8AAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="50, 44, 43, 20" FullSelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='Afx:*' title='Project' /&gt;&lt;wnd cls='SysTreeView32' /&gt;&lt;ctrl name='Vectors' role='outline item' automationid='' check:text='Vectors' /&gt;" Guid="bedc7d0f-8f13-4045-8ff7-06c9c14ce381" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="147a34649bd5e1e791901a5e9477adbc.png" xmlns="">0xonoDzC4nkG2JkmLdA7JzQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

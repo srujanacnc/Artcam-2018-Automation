@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Test - Autodesk ArtCAM Premium 2018",
+  "Type": "Screen",
+  "Id": "kEV7jAn640OwvIrKX9NH_g",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/kEV7jAn640OwvIrKX9NH_g",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/JWgCNBK9VEG1dFMpqSp7ig",
+  "Created": "2025-03-21T06:51:09.5859344Z",
+  "Updated": "2025-03-21T06:51:09.5859344Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
