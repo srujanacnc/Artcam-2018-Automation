@@ -1,0 +1,14 @@
+﻿{
+  "Name": "image Edit Toolpath",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "N9Osw2-NzEGVLo7QfUP8SQ",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/N9Osw2-NzEGVLo7QfUP8SQ",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/BU38dCNkJkKH3HvIjYoRew",
+  "Created": "2025-03-28T04:53:33.0088935Z",
+  "Updated": "2025-03-28T04:53:33.0088935Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

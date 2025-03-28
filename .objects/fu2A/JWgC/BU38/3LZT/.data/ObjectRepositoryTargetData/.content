@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-Pkm7_UGek2fr3-yiPiaEw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="114, 179, 70, 21" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia automationid='jFinishDepthEdit' role='edit' /&gt;" Guid="2dc004ee-663d-4bcc-b07e-c62c43359795" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' idx='*' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target DesignTimeRectangle="49, 183, 63, 13" ElementType="Text" FullSelectorArgument="&lt;uia idx='6' role='table' /&gt;&lt;uia idx='2' role='item' tableRow='0' /&gt;&lt;uia role='table' /&gt;&lt;uia automationid='jFinishDepthEditLabel' name='Finish Depth:' role='item' tableRow='1' /&gt;&lt;uia name='Finish Depth:' role='text' /&gt;" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia role='table' /&gt;&lt;uia automationid='jFinishDepthEditLabel' name='Finish Depth:' role='item' /&gt;&lt;uia name='Finish Depth:' role='text' automationid='' check:fulltext='Finish Depth:' /&gt;" Guid="32709efa-7941-47d6-b9d1-62b590492fd0" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ca552ee5c8ac8a7709f0af366cedc1af.png" xmlns="">00JIZqFfNaE2QPQ-FC7RrgA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

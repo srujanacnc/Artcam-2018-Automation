@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bLqBXQ6HnEGHGmozModXZA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="114, 156, 70, 21" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia automationid='jStartDepthEdit' role='edit' /&gt;" Guid="3973317d-6af5-41aa-9e41-99408bd567c8" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' idx='*' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target DesignTimeRectangle="49, 160, 60, 13" ElementType="Text" FullSelectorArgument="&lt;uia idx='6' role='table' /&gt;&lt;uia idx='2' role='item' tableRow='0' /&gt;&lt;uia role='table' /&gt;&lt;uia automationid='jStartDepthEditLabel' name='Start Depth:' role='item' tableRow='0' /&gt;&lt;uia name='Start Depth:' role='text' /&gt;" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia role='table' /&gt;&lt;uia automationid='jStartDepthEditLabel' name='Start Depth:' role='item' /&gt;&lt;uia name='Start Depth:' role='text' automationid='' check:fulltext='Start Depth:' /&gt;" Guid="83bc8266-9b6d-438e-84b5-877151a9d5f6" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a40a9c529fed833d877a27385960972a.png" xmlns="">0XJlK0Qm84EaOFtY91GyS0w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

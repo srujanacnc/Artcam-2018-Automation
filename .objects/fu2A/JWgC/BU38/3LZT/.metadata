@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Start Depth",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "3LZT6YyFoEyoY9VaiYNx4Q",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/3LZT6YyFoEyoY9VaiYNx4Q",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/BU38dCNkJkKH3HvIjYoRew",
+  "Created": "2025-03-28T04:58:27.8969475Z",
+  "Updated": "2025-03-28T04:58:27.8969475Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

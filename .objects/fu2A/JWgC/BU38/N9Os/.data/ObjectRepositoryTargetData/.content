@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ygtp23i9qkuqrU2ycr-Zyg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="206, 485, 32, 32" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;uia name='Edit Toolpath' role='image' /&gt;" FuzzySelectorArgument="&lt;uia name='Edit Toolpath' role='image' automationid='' /&gt;" Guid="2f0436f3-f505-449a-9381-4e18902db035" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='Afx:*' title='Project' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="156, 485, 32, 32" ElementType="Icon" FullSelectorArgument="&lt;uia name='Delete Toolpath' role='image' /&gt;" Guid="11176991-57a1-4346-a42e-85787b689e6d" ImageBase64="" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="de176769c626363665c65a8c71f2de67.png" xmlns="">0MlEet0cdQEKONgFxji3FXA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
