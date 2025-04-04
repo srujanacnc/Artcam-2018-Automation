@@ -12,9 +12,9 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "is3DComplete&Sequence_21",
         "path&Sequence_1",
-        "eventText&Sequence_2"
+        "eventText&Sequence_2",
+        "is3DComplete&Sequence_21"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
