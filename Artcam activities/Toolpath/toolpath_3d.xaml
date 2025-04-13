@@ -93,7 +93,7 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="toolpath_2d" sap:VirtualizedContainerService.HintSize="1276,3045" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="toolpath_2d" sap:VirtualizedContainerService.HintSize="1276,3464" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="activeWindow" />
       <Variable x:TypeArguments="ui:Window" Name="act" />
@@ -103,13 +103,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" ContinueOnError="True" DisplayName="ArtCAM" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,3022" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="Never" ScopeGuid="4ca24a82-aa64-40bf-aef9-70c173b987c7" UserDataFolderMode="Automatic" Version="V2" WebDriverMode="Disabled">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" ContinueOnError="True" DisplayName="ArtCAM" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,3441" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="Never" ScopeGuid="4ca24a82-aa64-40bf-aef9-70c173b987c7" UserDataFolderMode="Automatic" Version="V2" WebDriverMode="Disabled">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,2732" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,3151" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -249,6 +249,38 @@
                 </uix:VerifyExecutionOptions>
               </uix:NKeyboardShortcuts.VerifyOptions>
             </uix:NKeyboardShortcuts>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Material Z Zero'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4ca24a82-aa64-40bf-aef9-70c173b987c7" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="s8oHwlZv8kS6qHjQJuvxAA" DesignTimeRectangle="113, 208, 12, 20" DesignTimeScaleFactor="1" ElementType="RadioButton" FullSelectorArgument="&lt;uia automationid='10933' cls='Button' name='Material Z Zero' /&gt;" FuzzySelectorArgument="&lt;uia automationid='10933' cls='Button' name='Material Z Zero' role='radio button' check:fulltext='Material Z Zero' /&gt;" Guid="a281da5c-679f-4e99-81b0-88e4132671a3" InformativeScreenshot="74615eba1e2d526f6a7d24e5e25d467e.png" Reference="BPn6SeZv5kaUlPUoI-KGnw/FC1otktYJU-pV8J9dqxE7w" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='#32770' title='Material Setup' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="23, 242, 89, 20" ElementType="Text" FullSelectorArgument="&lt;uia automationid='10122' cls='Static' name='Material Z Zero' /&gt;" FuzzySelectorArgument="&lt;uia automationid='10122' cls='Static' name='Material Z Zero' role='text' check:fulltext='Material Z Zero' /&gt;" Guid="672d341e-e27a-4a12-8595-6f222f7db701" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NSetText DisplayName="Set Text 'Top Offset'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NSetText_2" ScopeIdentifier="4ca24a82-aa64-40bf-aef9-70c173b987c7" Text="0" Version="V4">
+              <uix:NSetText.Target>
+                <uix:TargetAnchorable ContentHash="JIgzhU2dEEO49CFNas981g" DesignTimeRectangle="217, 223, 60, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;uia automationid='10851' cls='Edit' /&gt;" FuzzySelectorArgument="&lt;uia automationid='10851' cls='Edit' role='edit' /&gt;" Guid="31b92165-d01a-4fb3-b9fe-6e780cc225d1" InformativeScreenshot="ade2e3f9a54e71cec20b3839a5a6a48e.png" Reference="BPn6SeZv5kaUlPUoI-KGnw/k1k2DFiM40qjyToCcJDIbQ" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='#32770' title='Material Setup' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="281, 223, 71, 20" ElementType="Text" FullSelectorArgument="&lt;uia automationid='10123' cls='Static' name='Top Offset' /&gt;" FuzzySelectorArgument="&lt;uia automationid='10123' cls='Static' name='Top Offset' role='text' check:fulltext='Top Offset' /&gt;" Guid="cd4b2830-653e-4dcf-a5a4-caf7871c6a86" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NSetText.Target>
+            </uix:NSetText>
             <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,247" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" ScopeIdentifier="4ca24a82-aa64-40bf-aef9-70c173b987c7" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V4">
               <uix:NKeyboardShortcuts.VerifyOptions>
                 <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">

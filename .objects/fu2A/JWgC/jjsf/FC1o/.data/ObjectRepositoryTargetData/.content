@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="s8oHwlZv8kS6qHjQJuvxAA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="113, 208, 12, 20" DesignTimeScaleFactor="1" ElementType="RadioButton" FullSelectorArgument="&lt;uia automationid='10933' cls='Button' name='Material Z Zero' /&gt;" FuzzySelectorArgument="&lt;uia automationid='10933' cls='Button' name='Material Z Zero' role='radio button' check:fulltext='Material Z Zero' /&gt;" Guid="a281da5c-679f-4e99-81b0-88e4132671a3" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='#32770' title='Material Setup' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="23, 242, 89, 20" ElementType="Text" FullSelectorArgument="&lt;uia automationid='10122' cls='Static' name='Material Z Zero' /&gt;" FuzzySelectorArgument="&lt;uia automationid='10122' cls='Static' name='Material Z Zero' role='text' check:fulltext='Material Z Zero' /&gt;" Guid="672d341e-e27a-4a12-8595-6f222f7db701" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="74615eba1e2d526f6a7d24e5e25d467e.png" xmlns="">0dADeY2vlp0qld24G4j2edg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -108,7 +108,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="(Untitled) - Autodesk ArtCAM Premium 2018(3)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,3275" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="44228f2a-cfe8-4b51-95da-54f52f0e5e52" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="{x:Null}" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" DisplayName="(Untitled) - Autodesk ArtCAM Premium 2018(3)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,3275" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="{x:Null}" IsIncognito="{x:Null}" OpenMode="{x:Null}" OutUiElement="{x:Null}" ScopeGuid="44228f2a-cfe8-4b51-95da-54f52f0e5e52" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V2" WebDriverMode="{x:Null}">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -210,12 +210,12 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:CommentOut>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'artcampro.exe (Untitled…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="44228f2a-cfe8-4b51-95da-54f52f0e5e52" Version="V4">
+            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'artcampro.exe (Untitled…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_1" InUiElement="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="44228f2a-cfe8-4b51-95da-54f52f0e5e52" Timeout="{x:Null}" Version="V4">
               <uix:NClick.Target>
-                <uix:TargetAnchorable DesignTimeRectangle="10, 531, 40, 40" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;uia idx='77' role='button' /&gt;" Guid="35219176-bdd9-42e7-a50a-338dba0ff4ef" ImageBase64="" InformativeScreenshot="68f1841ff8cf695bec3750f3f0227016.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='FB0041 - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="Selector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive" />
+                <uix:TargetAnchorable DesignTimeRectangle="11, 532, 40, 38" DesignTimeScaleFactor="1" Guid="e382243b-f566-4103-9562-4b89df337d95" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAmCAYAAAC29NkdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB3SURBVFhH7dcxCsAgEAXR3MlzeRzPaOcVDNuKmGISWMgUrxL+TutVSpmZGUgZSBlIHQN773OM8YnY3t1cHQNjqLU2a62vis3Y3t1cPQbG4O6NiE0DCQMpAykDKQMpAykDKQMpA6l/Bab+NKX/dmZgIGUgZSBT5g2s+XtXd4I+2QAAAABJRU5ErkJggg==" InformativeScreenshot="be959b4fee40df6522566e1101b92c38.png" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='FB - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V5" Visibility="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Width'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="44228f2a-cfe8-4b51-95da-54f52f0e5e52" Version="V4">
+            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'Width'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_7" InScope="{x:Null}" InUiElement="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="44228f2a-cfe8-4b51-95da-54f52f0e5e52" Timeout="{x:Null}" Version="V4">
               <uix:NClick.Target>
                 <uix:TargetAnchorable ContentHash="EjCqzNu-VkGaQravmThy2Q" DesignTimeRectangle="1773, 289, 56, 19" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia role='table' /&gt;&lt;uia role='item' /&gt;&lt;uia automationid='Width' role='edit' /&gt;" Guid="0041e286-c5bd-4de5-b324-f77fdca5296c" InformativeScreenshot="0a6ec84d298eae387871d0b6dbf88baf.png" IsResponsive="True" Reference="BPn6SeZv5kaUlPUoI-KGnw/0H1sSg3_HEOfwp3VuiSpMA" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='(Untitled) - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -237,7 +237,7 @@
               </uix:NClick.VerifyOptions>
             </uix:NClick>
             <Delay Duration="00:00:00.3000000" sap:VirtualizedContainerService.HintSize="416,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
-            <uix:NKeyboardShortcuts ActivateBefore="False" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,247" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_8" Shortcuts="[d(hk)][k(back)][u(hk)]" Version="V4">
+            <uix:NKeyboardShortcuts ActivateBefore="False" ClickBeforeMode="None" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayBetweenShortcuts="{x:Null}" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,247" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_8" InScope="{x:Null}" InUiElement="{x:Null}" OutUiElement="{x:Null}" Shortcuts="[d(hk)][k(back)][u(hk)]" ShortcutsArgument="{x:Null}" Timeout="{x:Null}" Version="V4">
               <uix:NKeyboardShortcuts.VerifyOptions>
                 <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                   <uix:VerifyExecutionOptions.Retry>
@@ -249,15 +249,18 @@
                 </uix:VerifyExecutionOptions>
               </uix:NKeyboardShortcuts.VerifyOptions>
             </uix:NKeyboardShortcuts>
-            <uix:NTypeInto ActivateBefore="False" ClickBeforeMode="None" DisplayName="Type Into" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,257" sap2010:WorkflowViewState.IdRef="NTypeInto_5" Version="V4">
+            <uix:NTypeInto ActivateBefore="False" AlterIfDisabled="{x:Null}" ClickBeforeMode="None" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,257" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InScope="{x:Null}" InUiElement="{x:Null}" OutUiElement="{x:Null}" SecureText="{x:Null}" Timeout="{x:Null}" Version="V4">
               <uix:NTypeInto.Text>
                 <InArgument x:TypeArguments="x:String">
-                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_14">width</CSharpValue>
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_14">
+                    <CSharpValue.Result>
+                      <OutArgument x:TypeArguments="x:String" />
+                    </CSharpValue.Result>width</CSharpValue>
                 </InArgument>
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
             <Delay Duration="00:00:00.3000000" sap:VirtualizedContainerService.HintSize="416,122" sap2010:WorkflowViewState.IdRef="Delay_2" />
-            <uix:NKeyboardShortcuts ActivateBefore="False" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,247" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_9" Shortcuts="[d(hk)][k(tab)][u(hk)]" Version="V4">
+            <uix:NKeyboardShortcuts ActivateBefore="False" ClickBeforeMode="None" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayBetweenShortcuts="{x:Null}" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,247" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_9" InScope="{x:Null}" InUiElement="{x:Null}" OutUiElement="{x:Null}" Shortcuts="[d(hk)][k(tab)][u(hk)]" ShortcutsArgument="{x:Null}" Timeout="{x:Null}" Version="V4">
               <uix:NKeyboardShortcuts.VerifyOptions>
                 <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                   <uix:VerifyExecutionOptions.Retry>
@@ -270,15 +273,18 @@
               </uix:NKeyboardShortcuts.VerifyOptions>
             </uix:NKeyboardShortcuts>
             <Delay Duration="00:00:00.3000000" sap:VirtualizedContainerService.HintSize="416,122" sap2010:WorkflowViewState.IdRef="Delay_3" />
-            <uix:NTypeInto ActivateBefore="False" ClickBeforeMode="None" DisplayName="Type Into" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,257" sap2010:WorkflowViewState.IdRef="NTypeInto_6" Version="V4">
+            <uix:NTypeInto ActivateBefore="False" AlterIfDisabled="{x:Null}" ClickBeforeMode="None" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,257" sap2010:WorkflowViewState.IdRef="NTypeInto_6" InScope="{x:Null}" InUiElement="{x:Null}" OutUiElement="{x:Null}" SecureText="{x:Null}" Timeout="{x:Null}" Version="V4">
               <uix:NTypeInto.Text>
                 <InArgument x:TypeArguments="x:String">
-                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_15">hight</CSharpValue>
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_15">
+                    <CSharpValue.Result>
+                      <OutArgument x:TypeArguments="x:String" />
+                    </CSharpValue.Result>hight</CSharpValue>
                 </InArgument>
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
             <Delay Duration="00:00:00.3000000" sap:VirtualizedContainerService.HintSize="416,122" sap2010:WorkflowViewState.IdRef="Delay_4" />
-            <uix:NKeyboardShortcuts ActivateBefore="False" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,247" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_10" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V4">
+            <uix:NKeyboardShortcuts ActivateBefore="False" ClickBeforeMode="None" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayBetweenShortcuts="{x:Null}" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,247" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_10" InScope="{x:Null}" InUiElement="{x:Null}" OutUiElement="{x:Null}" Shortcuts="[d(hk)][k(enter)][u(hk)]" ShortcutsArgument="{x:Null}" Timeout="{x:Null}" Version="V4">
               <uix:NKeyboardShortcuts.VerifyOptions>
                 <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                   <uix:VerifyExecutionOptions.Retry>
@@ -291,7 +297,7 @@
               </uix:NKeyboardShortcuts.VerifyOptions>
             </uix:NKeyboardShortcuts>
             <Delay Duration="00:00:00.3000000" sap:VirtualizedContainerService.HintSize="416,122" sap2010:WorkflowViewState.IdRef="Delay_5" />
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'pane 59648(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="44228f2a-cfe8-4b51-95da-54f52f0e5e52" Version="V4">
+            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'pane 59648(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_8" InScope="{x:Null}" InUiElement="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="44228f2a-cfe8-4b51-95da-54f52f0e5e52" Timeout="{x:Null}" Version="V4">
               <uix:NClick.Target>
                 <uix:TargetAnchorable ContentHash="yA8c36y_1EONl8RU-IZCDw" DesignTimeRectangle="49, 209, 1651, 766" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;uia automationid='59648' cls='AfxFrameOrView120u' /&gt;" FuzzySelectorArgument="&lt;uia automationid='59648' cls='AfxFrameOrView120u' role='pane' /&gt;" Guid="c6a45f26-a29d-4179-a2e4-b14b21c1fa5e" InformativeScreenshot="93fff9380e3a54b3c4cac7f087710dcf.png" Reference="BPn6SeZv5kaUlPUoI-KGnw/TrH2fSyL3Ui_lbBmFkOe1w" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='ArtCAMMainFrameClass' title='(Untitled) - Autodesk ArtCAM Premium 2018' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive" />
               </uix:NClick.Target>
@@ -307,7 +313,7 @@
               </uix:NClick.VerifyOptions>
             </uix:NClick>
             <Delay Duration="00:00:00.3000000" sap:VirtualizedContainerService.HintSize="416,122" sap2010:WorkflowViewState.IdRef="Delay_6" />
-            <uix:NKeyboardShortcuts ActivateBefore="False" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,240" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_11" Shortcuts="[d(hk)][k(esc)][u(hk)]" Version="V4">
+            <uix:NKeyboardShortcuts ActivateBefore="False" ClickBeforeMode="None" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayBetweenShortcuts="{x:Null}" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,240" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_11" InScope="{x:Null}" InUiElement="{x:Null}" OutUiElement="{x:Null}" Shortcuts="[d(hk)][k(esc)][u(hk)]" ShortcutsArgument="{x:Null}" Timeout="{x:Null}" Version="V4">
               <uix:NKeyboardShortcuts.VerifyOptions>
                 <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                   <uix:VerifyExecutionOptions.Retry>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Material Z Zero",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "FC1otktYJU-pV8J9dqxE7w",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/FC1otktYJU-pV8J9dqxE7w",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/jjsf3B7cUkuTx3w7Ogp32w",
+  "Created": "2025-04-13T12:43:13.8099438Z",
+  "Updated": "2025-04-13T12:43:13.8099438Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JIgzhU2dEEO49CFNas981g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="217, 223, 60, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;uia automationid='10851' cls='Edit' /&gt;" FuzzySelectorArgument="&lt;uia automationid='10851' cls='Edit' role='edit' /&gt;" Guid="31b92165-d01a-4fb3-b9fe-6e780cc225d1" ScopeSelectorArgument="&lt;wnd app='artcampro.exe' cls='#32770' title='Material Setup' /&gt;" SearchSteps="Selector, FuzzySelector" SelectionStrategy="UIA" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="281, 223, 71, 20" ElementType="Text" FullSelectorArgument="&lt;uia automationid='10123' cls='Static' name='Top Offset' /&gt;" FuzzySelectorArgument="&lt;uia automationid='10123' cls='Static' name='Top Offset' role='text' check:fulltext='Top Offset' /&gt;" Guid="cd4b2830-653e-4dcf-a5a4-caf7871c6a86" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ade2e3f9a54e71cec20b3839a5a6a48e.png" xmlns="">0FOtGS4uLgkOP3WR5kwFkXg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

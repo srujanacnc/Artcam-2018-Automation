@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Top Offset",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "k1k2DFiM40qjyToCcJDIbQ",
+  "Reference": "BPn6SeZv5kaUlPUoI-KGnw/k1k2DFiM40qjyToCcJDIbQ",
+  "ParentRef": "BPn6SeZv5kaUlPUoI-KGnw/jjsf3B7cUkuTx3w7Ogp32w",
+  "Created": "2025-04-13T12:48:59.8406278Z",
+  "Updated": "2025-04-13T12:48:59.8406278Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
